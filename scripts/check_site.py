@@ -112,10 +112,12 @@ def main():
             if destination not in pages or (target["anchor"] and target["anchor"] not in pages[destination].anchors):
                 errors.append(f"Invalid redirect from {old}: {target['path']}#{target['anchor']}")
     for relative in (
+        "assets/fonts/kaiti-gb2312.woff2",
         "assets/vendor/mathjax/tex-chtml.js",
         "assets/vendor/mathjax/LICENSE",
         "assets/vendor/mathjax/input/tex/extensions/mathtools.js",
         "assets/vendor/mathjax/input/tex/extensions/boldsymbol.js",
+        "assets/vendor/mathjax/input/tex/extensions/textmacros.js",
         "assets/vendor/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
     ):
         if not (root / relative).is_file():

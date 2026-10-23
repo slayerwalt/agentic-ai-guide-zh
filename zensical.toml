@@ -9,8 +9,8 @@ docs_dir = "docs"
 site_dir = "site"
 use_directory_urls = true
 copyright = "原作 © Haggai Roitman · 中文翻译 © Chasing1020（Jiancong Zhu） · 整合发布：slayerwalt · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>"
-extra_css = ["assets/stylesheets/book.css", "assets/stylesheets/reading-back.css"]
-extra_javascript = ["assets/javascripts/mathjax.js", "assets/vendor/mathjax/tex-chtml.js", "assets/javascripts/reading-back.js"]
+extra_css = ["assets/stylesheets/book.css", "assets/stylesheets/reading-back.css", "assets/stylesheets/reading-size.css"]
+extra_javascript = ["assets/javascripts/reading-size.js", "assets/javascripts/mathjax.js", "assets/vendor/mathjax/tex-chtml.js", "assets/javascripts/reading-back.js"]
 nav = [
   { "首页" = "index.md" },
   { "全书目录" = "book-outline.md" },

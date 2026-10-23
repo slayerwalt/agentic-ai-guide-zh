@@ -1,11 +1,12 @@
 /* MathJax 3.2.2 is staged locally by scripts/vendor_mathjax.py. */
 window.MathJax = {
-  loader: { load: ["[tex]/mathtools", "[tex]/boldsymbol"] },
+  // Text-mode escapes such as \text{logp\_chosen} need textmacros.
+  loader: { load: ["[tex]/mathtools", "[tex]/boldsymbol", "[tex]/textmacros"] },
   tex: {
     inlineMath: [["\\(", "\\)"]],
     displayMath: [["\\[", "\\]"]],
     processEscapes: true,
-    packages: { "[+]": ["mathtools", "boldsymbol"] },
+    packages: { "[+]": ["mathtools", "boldsymbol", "textmacros"] },
     tags: "ams",
     macros: {
       argmax: "\\mathop{\\mathrm{arg\\,max}}\\limits",

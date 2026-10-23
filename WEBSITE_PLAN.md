@@ -41,15 +41,19 @@
 
 引用返回沿用 principles-of-diffusion-models 的 reading-back.js 与 reading-back.css。通过正文中的站内锚点链接跳转后，显示“返回引用位置”浮动按钮；返回时恢复点击前的滚动位置，并等待公式与字体排版稳定。直接打开参考文献时不显示按钮，文献条目下不再列出全部引用章节。脚注已有的返回链接继续独立处理。
 
+阅读字号由 reading-size.js 与 reading-size.css 提供：点击顶栏 Aa 按钮展开小窗，通过带刻度的滑块选择字号，界面显示小／大字体标识与“标准”位置，不显示像素或百分比；可点击“恢复默认”。内部使用 15、15.5、16、16.5、17、17.5、18、18.5、19px 九个固定档位，默认 17px。偏好按网站路径保存在当前浏览器，刷新、切换章节与重新打开网站后继续沿用。标题、公式、表格和代码随正文按原有比例调整，导航与按钮尺寸保持稳定；过长的行内公式可局部横向滚动，调节时保留当前阅读段落。手机端显示检查仅在用户明确要求时执行。
+
 ## 当前样例与实施范围
 
-阅读样例摘自第 1 章与第 28 章，继续作为排版示例。献辞、免责声明、关于作者、前言、引言、缩略语表和全部 30 章已整合。卷首保留 25 处文献引用、引言原图、78 个缩略语条目及四条译者注；正文保留 749 次文献条目引用与 108 道自测题。正文页面的代码、公式、引用、原 label、图表数量及中文正文顺序已自动核对，网页按整章选取样本抽查。手机端仅在全书整理完成后抽查。
+阅读样例摘自第 1 章与第 28 章，继续作为排版示例。献辞、免责声明、关于作者、前言、引言、缩略语表和全部 30 章已整合。卷首保留 25 处文献引用、引言原图、78 个缩略语表条目及四条译者注；正文保留 749 次文献条目引用与 108 道自测题。正文页面的代码、公式、引用、原 label、图表数量及中文正文顺序已自动核对，网页按整章选取样本抽查。后续手机端显示检查仅在用户明确要求时执行。
 
 第 22 章中文源文件中的 11 个 footnotemark 没有对应的 footnotetext。2026-10-23 已核对原作者在 arXiv 公开的 [v1](https://arxiv.org/src/2606.24937v1)、[v2（英文 1.3 版）](https://arxiv.org/src/2606.24937v2)、[v3（英文 1.4 版）](https://arxiv.org/src/2606.24937v3) TeX 源码：对应位置均只有直接写入正文的数字 1—11，未找到配套注释。网页保留注号。本地核对记录位于 .site-work/english-original/footnote-audit.json。文献库中两条未填写的 institution/journal 字段也沿用原始数据。
 
 正文转换由 scripts/convert_book.py 执行，需要 Pandoc 3.6.1 及 requirements-convert.txt 中的可选依赖。转换先保护代码与数学环境，再处理提示框、表格、标题、图注与引用；遇到未处理的 LaTeX 内容会报错。随后 scripts/consolidate_reading.py 按连续主题合并阅读页，更新站内链接和目录，将重复的引用锚点改为唯一 ID，并把脚注集中到对应阅读页末尾。scripts/reading-layout.json 记录阅读顺序及旧网址映射，构建时由 scripts/reading_redirects.py 生成兼容跳转。脚注编号按章延续，自测题的复习章节可直接跳转。卷首与人工维护的网站说明不由此脚本覆盖。
 
-构建沿用前一项目的 Zensical 0.0.71 与 Python 3.12，依赖固定在 requirements-site.txt。运行资源采用本地 MathJax，字体使用系统字体；构建时仅取 CHTML 排版所需组件，避免把多套数学渲染包重复放入网站。
+构建沿用前一项目的 Zensical 0.0.71 与 Python 3.12，依赖固定在 requirements-site.txt。运行资源采用本地 MathJax；构建时仅取 CHTML 排版所需组件，避免把多套数学渲染包重复放入网站。
+
+正文使用系统字体；`em`、`i` 标记内的中文使用用户提供的「楷体_GB2312.ttf」的直立字形。字体完整转换为 `docs/assets/fonts/kaiti-gb2312.woff2`，保留全部字形，大小约 2.23 MB；不是按本书字符裁剪的子集。CSS 将它映射为强调用字形，并通过 `unicode-range` 限定汉字与中日韩、全角标点，使混排的英文继续采用原有斜体。采用 `font-display: swap` 避免加载字体时隐藏正文。当前网站强调文字中的 623 个不同中文字符及相关标点均在字体覆盖范围内。数学排版继续由 MathJax 处理。
 
 GitHub Actions 在 site/github-pages 分支上构建并生成预览产物，合并 main 后使用 Pages 的构建产物发布流程。发布前需要将仓库 Pages 的来源设为 GitHub Actions，并确认线上链接与排版。这一流程依据 [GitHub Pages 官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)；目录结构采用 [Zensical 的分组导航](https://zensical.org/docs/setup/navigation/)。
 
