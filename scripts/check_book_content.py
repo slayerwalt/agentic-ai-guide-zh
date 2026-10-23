@@ -7,10 +7,10 @@ navigation, numbering prefixes and relocated footnotes from the prose stream.
 from collections import Counter
 from html.parser import HTMLParser
 import json
-from pathlib import Path
 import re
 
-from book_structure import ROOT, active_tex, braced, catalog
+from book_structure import ROOT, active_tex, braced
+from consolidate_reading import load_layout
 
 
 class Article(HTMLParser):
@@ -109,7 +109,7 @@ def source_math(text):
 
 
 def main():
-    chapters = [c for p in catalog()["parts"] for c in p["chapters"]]
+    reading_pages = load_layout()["pages"]
     n = 0
     report, errors = [], []
     for part in range(1,7):
@@ -118,10 +118,7 @@ def main():
         for i, start in enumerate(starts):
             n += 1
             source = text[start.start():starts[i+1].start() if i+1<len(starts) else len(text)]
-            folder = ROOT / "docs" / Path(chapters[n-1]["path"]).parent
-            paths = [folder / "index.md"] + sorted(p for p in folder.glob("section-*.md"))
-            # Parent section introductions precede their subsection pages.
-            paths.sort(key=lambda p: (p.name != "index.md", tuple(int(x) for x in re.findall(r"\d+",p.stem))))
+            paths = [ROOT / "docs" / p["path"] for p in reading_pages if p["chapter"] == n]
             docs = []
             for path in paths:
                 relative = path.relative_to(ROOT / "docs")

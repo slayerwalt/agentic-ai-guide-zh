@@ -55,7 +55,7 @@ make distclean && make
 
 在线阅读：[智能体 AI 漫游指南](https://slayerwalt.github.io/agentic-ai-guide-zh/)。
 
-本 fork 由 slayerwalt 负责已有中文译本的整合发布，中文翻译由 Chasing1020（Jiancong Zhu）完成。网页工作在 site/github-pages 分支进行，已收录卷首、6 个部分的全部 30 章，以及 443 篇参考文献。保留译文、公式、图表、187 段代码和 108 道自测题，提供按节阅读与折叠解答。
+本 fork 由 slayerwalt 负责已有中文译本的整合发布，中文翻译由 Chasing1020（Jiancong Zhu）完成。网页工作在 site/github-pages 分支进行，已收录卷首、6 个部分的全部 30 章，以及 443 篇参考文献。保留译文、公式、图表、187 段代码和 108 道自测题，正文整合为 42 个连续阅读页，提供页内目录与折叠解答。
 
 内容呈现与目录组织见 [网页框架方案](WEBSITE_PLAN.md)。本地使用 Python 3.12：
 

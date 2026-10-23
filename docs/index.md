@@ -28,7 +28,7 @@ slayerwalt 整合发布
 
 <div class="edition-status">全书已收录 · 6 个部分 · 30 章</div>
 
-本网站由 slayerwalt 对已有的[中文译本](https://github.com/Chasing1020/agentic-ai-guide-zh)整合发布，中文翻译由 Chasing1020（Jiancong Zhu）完成。卷首与全书 30 章均已收录，保留现有译文、公式、图表、代码和引用。正文按章、节阅读，自测题可展开解答；从正文引用跳转到[参考文献](references.md)后，可通过“返回引用位置”按钮继续阅读。
+本网站由 slayerwalt 对已有的[中文译本](https://github.com/Chasing1020/agentic-ai-guide-zh)整合发布，中文翻译由 Chasing1020（Jiancong Zhu）完成。卷首与全书 30 章均已收录，保留现有译文、公式、图表、代码和引用。正文以整章连续阅读为主，较长章节按主题分组，小节可通过页内目录定位；自测题可展开解答。从正文引用跳转到[参考文献](references.md)后，可通过“返回引用位置”按钮继续阅读。
 
 ## 全书六部分
 

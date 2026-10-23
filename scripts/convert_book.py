@@ -1,4 +1,4 @@
-"""Convert the complete, existing Chinese TeX text into section reading pages.
+"""Convert the complete, existing Chinese TeX text into continuous reading pages.
 
 Pandoc reads prose, lists and table cells. A small source pass preserves the
 constructs its LaTeX reader cannot faithfully retain: box titles, tabularx,
@@ -25,6 +25,7 @@ from pygments.formatters import HtmlFormatter
 from pygments.lexers import get_lexer_by_name
 
 from book_structure import ROOT, active_tex, braced, catalog
+from consolidate_reading import consolidate
 
 ESC = html.escape
 WORK = ROOT / ".site-work/conversion"
@@ -697,6 +698,7 @@ def main():
     (WORK / "manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     (WORK / "specials.json").write_text(json.dumps(book.specials,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Converted {len(book.pages)} pages across 30 chapters.")
+    consolidate()
 
 
 if __name__ == "__main__":

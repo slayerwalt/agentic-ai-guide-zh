@@ -7,6 +7,8 @@ import shutil
 import subprocess
 import sys
 
+from reading_redirects import write_redirects
+
 ROOT = Path(__file__).resolve().parents[1]
 # Only assets used by published Markdown are staged; figures/ remains the source.
 
@@ -30,6 +32,7 @@ def main():
     index = json.loads(index_path.read_text(encoding="utf-8"))
     index["config"]["lang"] = ["zh", "en"]
     index_path.write_text(json.dumps(index, ensure_ascii=False) + "\n", encoding="utf-8")
+    write_redirects()
     subprocess.run([sys.executable, "scripts/check_site.py"], cwd=ROOT, check=True)
     subprocess.run([sys.executable, "scripts/check_book_content.py"], cwd=ROOT, check=True)
 

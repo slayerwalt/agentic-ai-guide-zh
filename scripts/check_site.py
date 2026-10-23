@@ -9,6 +9,7 @@ from pathlib import Path
 import tomllib
 
 from book_structure import ROOT, catalog
+from consolidate_reading import load_layout, route
 
 
 @lru_cache(maxsize=None)
@@ -88,6 +89,7 @@ def main():
             elif url.fragment and target in pages and unquote(url.fragment) not in pages[target].anchors:
                 errors.append(f"{path.relative_to(root)}: missing anchor: {href}")
     book = catalog()
+    layout = load_layout()
     for part in book["parts"]:
         for chapter in part["chapters"]:
             target = root / chapter["path"].replace(".md", ".html")
@@ -95,10 +97,20 @@ def main():
             if page is None:
                 errors.append(f"Missing chapter {chapter['number']}: {target}")
                 continue
-            for section in chapter["sections"]:
-                anchor = section["label"] or f"section-{section['number'].replace('.', '-')}"
-                if anchor not in page.anchors:
-                    errors.append(f"Missing section entry {section['number']}: {anchor}")
+            for i, section in enumerate(chapter["sections"], 1):
+                old = str(Path(chapter["path"]).with_name(f"section-{i:02}.md")).replace("\\", "/")
+                entry = layout["redirects"][old]
+                destination = root / route(entry["path"]) / "index.html"
+                if destination not in pages or entry["anchor"] not in pages[destination].anchors:
+                    errors.append(f"Missing section entry {section['number']}: {entry['anchor']}")
+    for old, entry in layout["redirects"].items():
+        legacy = root / route(old) / "index.html"
+        if legacy not in pages:
+            errors.append(f"Missing published route: {old}")
+        for target in [entry, *entry["hashes"].values()]:
+            destination = root / route(target["path"]) / "index.html"
+            if destination not in pages or (target["anchor"] and target["anchor"] not in pages[destination].anchors):
+                errors.append(f"Invalid redirect from {old}: {target['path']}#{target['anchor']}")
     for relative in (
         "assets/vendor/mathjax/tex-chtml.js",
         "assets/vendor/mathjax/LICENSE",
@@ -111,9 +123,16 @@ def main():
     search = json.loads((root / "search.json").read_text(encoding="utf-8"))
     if not {"zh", "en"}.issubset(search.get("config", {}).get("lang", [])):
         errors.append("Chinese and English search segmentation is not enabled.")
+    chapter_routes = {route(page["path"]) for page in layout["pages"]}
+    search_routes = {urlsplit(item["location"]).path for item in search["items"]
+                     if item["location"].startswith("chapters/")}
+    if search_routes != chapter_routes:
+        errors.append(f"Search must contain canonical reading pages only: {search_routes ^ chapter_routes}")
     if errors:
         raise SystemExit("\n".join(errors))
-    print(f"Checked {len(pages)} pages, 30 chapters and {book['section_count']} section anchors; links and assets OK.")
+    redirects = sum(old != target["path"] for old, target in layout["redirects"].items())
+    print(f"Checked {len(pages)-redirects} content pages and {redirects} redirects, "
+          f"30 chapters and {book['section_count']} section anchors; links and assets OK.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,3616 @@
+{
+  "pages": [
+    {
+      "path": "chapters/01-llm-architecture/index.md",
+      "chapter": 1,
+      "title": "从输入到输出",
+      "number": "1.1–1.4",
+      "first_section": 1,
+      "last_section": 4
+    },
+    {
+      "path": "chapters/01-llm-architecture/reading-02.md",
+      "chapter": 1,
+      "title": "训练理论与实践",
+      "number": "1.5–1.8",
+      "first_section": 5,
+      "last_section": 8
+    },
+    {
+      "path": "chapters/01-llm-architecture/reading-03.md",
+      "chapter": 1,
+      "title": "高效模型与训练多样性",
+      "number": "1.9–1.11",
+      "first_section": 9,
+      "last_section": 11
+    },
+    {
+      "path": "chapters/01-llm-architecture/reading-04.md",
+      "chapter": 1,
+      "title": "文本生成与 Prompt 工程",
+      "number": "1.12–1.13",
+      "first_section": 12,
+      "last_section": 13
+    },
+    {
+      "path": "chapters/01-llm-architecture/reading-05.md",
+      "chapter": 1,
+      "title": "压缩、加速与安全",
+      "number": "1.14–1.17",
+      "first_section": 14,
+      "last_section": 17
+    },
+    {
+      "path": "chapters/02-systems-foundations/index.md",
+      "chapter": 2,
+      "title": "面向 LLM 的系统基础",
+      "number": "2.1–2.2",
+      "first_section": 1,
+      "last_section": 2
+    },
+    {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "chapter": 3,
+      "title": "强化学习导论",
+      "number": "3.1–3.11",
+      "first_section": 1,
+      "last_section": 11
+    },
+    {
+      "path": "chapters/04-rl-for-language-models/index.md",
+      "chapter": 4,
+      "title": "大语言模型的强化学习基础",
+      "number": "4.1–4.4",
+      "first_section": 1,
+      "last_section": 4
+    },
+    {
+      "path": "chapters/05-ppo/index.md",
+      "chapter": 5,
+      "title": "PPO——近端策略优化",
+      "number": "5.1–5.9",
+      "first_section": 1,
+      "last_section": 9
+    },
+    {
+      "path": "chapters/06-dpo/index.md",
+      "chapter": 6,
+      "title": "DPO——直接偏好优化",
+      "number": "6.1–6.9",
+      "first_section": 1,
+      "last_section": 9
+    },
+    {
+      "path": "chapters/07-grpo/index.md",
+      "chapter": 7,
+      "title": "GRPO —— 组相对策略优化",
+      "number": "7.1–7.5",
+      "first_section": 1,
+      "last_section": 5
+    },
+    {
+      "path": "chapters/08-preference-optimization/index.md",
+      "chapter": 8,
+      "title": "偏好优化变体",
+      "number": "8.1–8.6",
+      "first_section": 1,
+      "last_section": 6
+    },
+    {
+      "path": "chapters/09-reward-models/index.md",
+      "chapter": 9,
+      "title": "奖励模型训练",
+      "number": "9.1–9.7",
+      "first_section": 1,
+      "last_section": 7
+    },
+    {
+      "path": "chapters/10-sft/index.md",
+      "chapter": 10,
+      "title": "SFT 最佳实践与技巧",
+      "number": "10.1–10.6",
+      "first_section": 1,
+      "last_section": 6
+    },
+    {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "chapter": 11,
+      "title": "大规模系统架构与基础设施",
+      "number": "11.1–11.15",
+      "first_section": 1,
+      "last_section": 15
+    },
+    {
+      "path": "chapters/12-agentic-training/index.md",
+      "chapter": 12,
+      "title": "训练基础与方法",
+      "number": "12.1–12.5",
+      "first_section": 1,
+      "last_section": 5
+    },
+    {
+      "path": "chapters/12-agentic-training/reading-02.md",
+      "chapter": 12,
+      "title": "训练用例",
+      "number": "12.6–12.7",
+      "first_section": 6,
+      "last_section": 7
+    },
+    {
+      "path": "chapters/12-agentic-training/reading-03.md",
+      "chapter": 12,
+      "title": "前沿方法与交互环境",
+      "number": "12.8–12.9",
+      "first_section": 8,
+      "last_section": 9
+    },
+    {
+      "path": "chapters/13-reasoning/index.md",
+      "chapter": 13,
+      "title": "推理基础与测试时扩展",
+      "number": "13.1–13.2",
+      "first_section": 1,
+      "last_section": 2
+    },
+    {
+      "path": "chapters/13-reasoning/reading-02.md",
+      "chapter": 13,
+      "title": "代表性推理模型",
+      "number": "13.3–13.5",
+      "first_section": 3,
+      "last_section": 5
+    },
+    {
+      "path": "chapters/13-reasoning/reading-03.md",
+      "chapter": 13,
+      "title": "数学方法、扩展规律与开放问题",
+      "number": "13.6–13.11",
+      "first_section": 6,
+      "last_section": 11
+    },
+    {
+      "path": "chapters/14-evaluation/index.md",
+      "chapter": 14,
+      "title": "LLM 评估",
+      "number": "14.1–14.8",
+      "first_section": 1,
+      "last_section": 8
+    },
+    {
+      "path": "chapters/15-agentic-ai/index.md",
+      "chapter": 15,
+      "title": "智能体 AI 简介",
+      "number": "15.1",
+      "first_section": 1,
+      "last_section": 0
+    },
+    {
+      "path": "chapters/16-rag/index.md",
+      "chapter": 16,
+      "title": "检索增强生成（RAG）",
+      "number": "16.1–16.11",
+      "first_section": 1,
+      "last_section": 11
+    },
+    {
+      "path": "chapters/17-memory/index.md",
+      "chapter": 17,
+      "title": "智能体记忆系统",
+      "number": "17.1–17.13",
+      "first_section": 1,
+      "last_section": 13
+    },
+    {
+      "path": "chapters/18-agent-harness/index.md",
+      "chapter": 18,
+      "title": "Agent Harness —— 上下文管理与编排",
+      "number": "18.1–18.10",
+      "first_section": 1,
+      "last_section": 10
+    },
+    {
+      "path": "chapters/19-loop-engineering/index.md",
+      "chapter": 19,
+      "title": "循环工程（Loop Engineering）",
+      "number": "19.1–19.14",
+      "first_section": 1,
+      "last_section": 14
+    },
+    {
+      "path": "chapters/20-agent-patterns/index.md",
+      "chapter": 20,
+      "title": "Agent 设计模式",
+      "number": "20.1–20.4",
+      "first_section": 1,
+      "last_section": 4
+    },
+    {
+      "path": "chapters/21-environments/index.md",
+      "chapter": 21,
+      "title": "Agent 环境与基准",
+      "number": "21.1–21.10",
+      "first_section": 1,
+      "last_section": 10
+    },
+    {
+      "path": "chapters/22-mcp/index.md",
+      "chapter": 22,
+      "title": "模型上下文协议（Model Context Protocol, MCP）",
+      "number": "22.1–22.11",
+      "first_section": 1,
+      "last_section": 11
+    },
+    {
+      "path": "chapters/23-agent-skills/index.md",
+      "chapter": 23,
+      "title": "Agent Skills",
+      "number": "23.1–23.6",
+      "first_section": 1,
+      "last_section": 6
+    },
+    {
+      "path": "chapters/24-a2a/index.md",
+      "chapter": 24,
+      "title": "智能体到智能体通信（Agent-to-Agent, A2A）",
+      "number": "24.1–24.10",
+      "first_section": 1,
+      "last_section": 10
+    },
+    {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "chapter": 25,
+      "title": "多智能体系统（Multi-Agent Systems）",
+      "number": "25.1–25.12",
+      "first_section": 1,
+      "last_section": 12
+    },
+    {
+      "path": "chapters/26-development-frameworks/index.md",
+      "chapter": 26,
+      "title": "Agent 开发框架",
+      "number": "26.1–26.10",
+      "first_section": 1,
+      "last_section": 10
+    },
+    {
+      "path": "chapters/27-agentic-ui/index.md",
+      "chapter": 27,
+      "title": "Agentic UI 框架",
+      "number": "27.1–27.10",
+      "first_section": 1,
+      "last_section": 10
+    },
+    {
+      "path": "chapters/28-quiz/index.md",
+      "chapter": 28,
+      "title": "基础、算法与实战",
+      "number": "28.1–28.6",
+      "first_section": 1,
+      "last_section": 6
+    },
+    {
+      "path": "chapters/28-quiz/reading-02.md",
+      "chapter": 28,
+      "title": "硬件、优化与训练系统",
+      "number": "28.7–28.10",
+      "first_section": 7,
+      "last_section": 10
+    },
+    {
+      "path": "chapters/28-quiz/reading-03.md",
+      "chapter": 28,
+      "title": "模型架构与效率",
+      "number": "28.11–28.17",
+      "first_section": 11,
+      "last_section": 17
+    },
+    {
+      "path": "chapters/28-quiz/reading-04.md",
+      "chapter": 28,
+      "title": "Agent 训练、推理与评估",
+      "number": "28.18–28.21",
+      "first_section": 18,
+      "last_section": 21
+    },
+    {
+      "path": "chapters/28-quiz/reading-05.md",
+      "chapter": 28,
+      "title": "Agent 系统与应用",
+      "number": "28.22–28.30",
+      "first_section": 22,
+      "last_section": 30
+    },
+    {
+      "path": "chapters/29-quick-reference/index.md",
+      "chapter": 29,
+      "title": "速查手册",
+      "number": "29.1–29.23",
+      "first_section": 1,
+      "last_section": 23
+    },
+    {
+      "path": "chapters/30-conclusion/index.md",
+      "chapter": 30,
+      "title": "总结与未来方向",
+      "number": "30.1–30.3",
+      "first_section": 1,
+      "last_section": 3
+    }
+  ],
+  "redirects": {
+    "chapters/01-llm-architecture/index.md": {
+      "path": "chapters/01-llm-architecture/index.md",
+      "anchor": "llm-architecture-and-optimization-methods",
+      "hashes": {
+        "how-llms-work-an-intuitive-overview": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "how-llms-work-an-intuitive-overview"
+        },
+        "sec:tokenization": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "sec:tokenization"
+        },
+        "the-transformer-architecture": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "the-transformer-architecture"
+        },
+        "prediction-heads-what-transformers-output": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "prediction-heads-what-transformers-output"
+        },
+        "optimization-theory-for-llm-training": {
+          "path": "chapters/01-llm-architecture/reading-02.md",
+          "anchor": "optimization-theory-for-llm-training"
+        },
+        "flash-attention-algorithm-and-hardware-awareness": {
+          "path": "chapters/01-llm-architecture/reading-02.md",
+          "anchor": "flash-attention-algorithm-and-hardware-awareness"
+        },
+        "sec:pretraining": {
+          "path": "chapters/01-llm-architecture/reading-02.md",
+          "anchor": "sec:pretraining"
+        },
+        "sec:sft": {
+          "path": "chapters/01-llm-architecture/reading-02.md",
+          "anchor": "sec:sft"
+        },
+        "lora-and-parameter-efficient-fine-tuning": {
+          "path": "chapters/01-llm-architecture/reading-03.md",
+          "anchor": "lora-and-parameter-efficient-fine-tuning"
+        },
+        "mixture-of-experts-moe": {
+          "path": "chapters/01-llm-architecture/reading-03.md",
+          "anchor": "mixture-of-experts-moe"
+        },
+        "diversity-in-llm-training": {
+          "path": "chapters/01-llm-architecture/reading-03.md",
+          "anchor": "diversity-in-llm-training"
+        },
+        "text-generation-decoding-methods": {
+          "path": "chapters/01-llm-architecture/reading-04.md",
+          "anchor": "text-generation-decoding-methods"
+        },
+        "sec:prompt-engineering": {
+          "path": "chapters/01-llm-architecture/reading-04.md",
+          "anchor": "sec:prompt-engineering"
+        },
+        "model-compression-methods": {
+          "path": "chapters/01-llm-architecture/reading-05.md",
+          "anchor": "model-compression-methods"
+        },
+        "speculative-decoding-methods": {
+          "path": "chapters/01-llm-architecture/reading-05.md",
+          "anchor": "speculative-decoding-methods"
+        },
+        "sec:hallucination": {
+          "path": "chapters/01-llm-architecture/reading-05.md",
+          "anchor": "sec:hallucination"
+        },
+        "sec:safety": {
+          "path": "chapters/01-llm-architecture/reading-05.md",
+          "anchor": "sec:safety"
+        }
+      }
+    },
+    "chapters/01-llm-architecture/section-01.md": {
+      "path": "chapters/01-llm-architecture/index.md",
+      "anchor": "how-llms-work-an-intuitive-overview",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-02.md": {
+      "path": "chapters/01-llm-architecture/index.md",
+      "anchor": "sec:tokenization",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-03.md": {
+      "path": "chapters/01-llm-architecture/index.md",
+      "anchor": "the-transformer-architecture",
+      "hashes": {
+        "cite-openai2023gpt4-1": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "cite-openai2023gpt4-1--section-03"
+        },
+        "cite-grattafiori2024llama3-1": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "cite-grattafiori2024llama3-1--section-03"
+        },
+        "cite-jiang2023mistral-1": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "cite-jiang2023mistral-1--section-03"
+        },
+        "cite-raffel2020t5-1": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "cite-raffel2020t5-1--section-03"
+        },
+        "cite-devlin2019bert-1": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "cite-devlin2019bert-1--section-03"
+        },
+        "cite-radford2019gpt2-1": {
+          "path": "chapters/01-llm-architecture/index.md",
+          "anchor": "cite-radford2019gpt2-1--section-03"
+        }
+      }
+    },
+    "chapters/01-llm-architecture/section-04.md": {
+      "path": "chapters/01-llm-architecture/index.md",
+      "anchor": "prediction-heads-what-transformers-output",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-05.md": {
+      "path": "chapters/01-llm-architecture/reading-02.md",
+      "anchor": "optimization-theory-for-llm-training",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-06.md": {
+      "path": "chapters/01-llm-architecture/reading-02.md",
+      "anchor": "flash-attention-algorithm-and-hardware-awareness",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-07.md": {
+      "path": "chapters/01-llm-architecture/reading-02.md",
+      "anchor": "sec:pretraining",
+      "hashes": {
+        "cite-grattafiori2024llama3-1": {
+          "path": "chapters/01-llm-architecture/reading-02.md",
+          "anchor": "cite-grattafiori2024llama3-1--section-07"
+        }
+      }
+    },
+    "chapters/01-llm-architecture/section-08.md": {
+      "path": "chapters/01-llm-architecture/reading-02.md",
+      "anchor": "sec:sft",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-09.md": {
+      "path": "chapters/01-llm-architecture/reading-03.md",
+      "anchor": "lora-and-parameter-efficient-fine-tuning",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-10.md": {
+      "path": "chapters/01-llm-architecture/reading-03.md",
+      "anchor": "mixture-of-experts-moe",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-11.md": {
+      "path": "chapters/01-llm-architecture/reading-03.md",
+      "anchor": "diversity-in-llm-training",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-12.md": {
+      "path": "chapters/01-llm-architecture/reading-04.md",
+      "anchor": "text-generation-decoding-methods",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-13.md": {
+      "path": "chapters/01-llm-architecture/reading-04.md",
+      "anchor": "sec:prompt-engineering",
+      "hashes": {
+        "cite-willard2023outlines-1": {
+          "path": "chapters/01-llm-architecture/reading-04.md",
+          "anchor": "cite-willard2023outlines-1--section-13"
+        }
+      }
+    },
+    "chapters/01-llm-architecture/section-14.md": {
+      "path": "chapters/01-llm-architecture/reading-05.md",
+      "anchor": "model-compression-methods",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-15.md": {
+      "path": "chapters/01-llm-architecture/reading-05.md",
+      "anchor": "speculative-decoding-methods",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-16.md": {
+      "path": "chapters/01-llm-architecture/reading-05.md",
+      "anchor": "sec:hallucination",
+      "hashes": {}
+    },
+    "chapters/01-llm-architecture/section-17.md": {
+      "path": "chapters/01-llm-architecture/reading-05.md",
+      "anchor": "sec:safety",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/index.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "systems-foundations-for-llms",
+      "hashes": {
+        "gpu-architecture-from-silicon-to-llm-training": {
+          "path": "chapters/02-systems-foundations/index.md",
+          "anchor": "gpu-architecture-from-silicon-to-llm-training"
+        },
+        "vllm-pagedattention-and-high-throughput-inference": {
+          "path": "chapters/02-systems-foundations/index.md",
+          "anchor": "vllm-pagedattention-and-high-throughput-inference"
+        }
+      }
+    },
+    "chapters/02-systems-foundations/section-01.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "gpu-architecture-from-silicon-to-llm-training",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-01.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "why-gpus-for-deep-learning",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-02.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "nvidia-gpu-microarchitecture-generations",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-03.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "common-gpus-for-llm-training-and-inference",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-04.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "gpu-internal-architecture-the-streaming-multiprocessor-sm",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-05.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "gpu-chip-scaling-across-generations",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-06.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "gpu-memory-hierarchy-and-bandwidth",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-07.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "arithmetic-intensity-and-the-roofline-model",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-08.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "attention-is-memory-bound-ffn-is-compute-bound",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-09.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "tensor-cores",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-01-10.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "communication-architecture-nvlink-infiniband-and-pcie",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "vllm-pagedattention-and-high-throughput-inference",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-01.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "the-kv-cache-fragmentation-problem",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-02.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "pagedattention-virtual-memory-for-kv-caches",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-03.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "benefits-of-pagedattention",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-04.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "continuous-batching",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-05.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "speculative-decoding-integration",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-06.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "concrete-memory-savings-70b-model-at-scale",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-07.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "vllm-end-to-end-system",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-08.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "architecture-overview",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-09.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "core-components",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-10.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "request-lifecycle-end-to-end-flow",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-11.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "prefix-caching-automatic-prompt-caching",
+      "hashes": {}
+    },
+    "chapters/02-systems-foundations/section-02-12.md": {
+      "path": "chapters/02-systems-foundations/index.md",
+      "anchor": "sec:vllm-guided-decoding",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/index.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "sec:rl",
+      "hashes": {
+        "the-markov-decision-process-mdp": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "the-markov-decision-process-mdp"
+        },
+        "core-concepts-and-definitions": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "core-concepts-and-definitions"
+        },
+        "taxonomy-of-rl-methods": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "taxonomy-of-rl-methods"
+        },
+        "temporal-difference-td-learning": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "temporal-difference-td-learning"
+        },
+        "q-learning": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "q-learning"
+        },
+        "policy-gradient-methods-reinforce": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "policy-gradient-methods-reinforce"
+        },
+        "actor-critic-methods": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "actor-critic-methods"
+        },
+        "generalized-advantage-estimation-gae": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "generalized-advantage-estimation-gae"
+        },
+        "on-policy-vs-off-policy-detailed-comparison": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "on-policy-vs-off-policy-detailed-comparison"
+        },
+        "model-based-vs-model-free": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "model-based-vs-model-free"
+        },
+        "reward-shaping": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "reward-shaping"
+        }
+      }
+    },
+    "chapters/03-reinforcement-learning/section-01.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "the-markov-decision-process-mdp",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-02.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "core-concepts-and-definitions",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-03.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "taxonomy-of-rl-methods",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-04.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "temporal-difference-td-learning",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-05.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "q-learning",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-06.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "policy-gradient-methods-reinforce",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-07.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "actor-critic-methods",
+      "hashes": {
+        "cite-williams1992simple-1": {
+          "path": "chapters/03-reinforcement-learning/index.md",
+          "anchor": "cite-williams1992simple-1--section-07"
+        }
+      }
+    },
+    "chapters/03-reinforcement-learning/section-08.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "generalized-advantage-estimation-gae",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-09.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "on-policy-vs-off-policy-detailed-comparison",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-10.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "model-based-vs-model-free",
+      "hashes": {}
+    },
+    "chapters/03-reinforcement-learning/section-11.md": {
+      "path": "chapters/03-reinforcement-learning/index.md",
+      "anchor": "reward-shaping",
+      "hashes": {}
+    },
+    "chapters/04-rl-for-language-models/index.md": {
+      "path": "chapters/04-rl-for-language-models/index.md",
+      "anchor": "rl-foundations-for-language-models",
+      "hashes": {
+        "two-paradigms-rl-llms": {
+          "path": "chapters/04-rl-for-language-models/index.md",
+          "anchor": "two-paradigms-rl-llms"
+        },
+        "text-generation-as-mdp": {
+          "path": "chapters/04-rl-for-language-models/index.md",
+          "anchor": "text-generation-as-mdp"
+        },
+        "the-rlhf-pipeline": {
+          "path": "chapters/04-rl-for-language-models/index.md",
+          "anchor": "the-rlhf-pipeline"
+        },
+        "what-this-part-covers": {
+          "path": "chapters/04-rl-for-language-models/index.md",
+          "anchor": "what-this-part-covers"
+        }
+      }
+    },
+    "chapters/04-rl-for-language-models/section-01.md": {
+      "path": "chapters/04-rl-for-language-models/index.md",
+      "anchor": "two-paradigms-rl-llms",
+      "hashes": {
+        "cite-ouyang2022training-1": {
+          "path": "chapters/04-rl-for-language-models/index.md",
+          "anchor": "cite-ouyang2022training-1--section-01"
+        },
+        "cite-deepseek2025r1-1": {
+          "path": "chapters/04-rl-for-language-models/index.md",
+          "anchor": "cite-deepseek2025r1-1--section-01"
+        }
+      }
+    },
+    "chapters/04-rl-for-language-models/section-02.md": {
+      "path": "chapters/04-rl-for-language-models/index.md",
+      "anchor": "text-generation-as-mdp",
+      "hashes": {}
+    },
+    "chapters/04-rl-for-language-models/section-03.md": {
+      "path": "chapters/04-rl-for-language-models/index.md",
+      "anchor": "the-rlhf-pipeline",
+      "hashes": {
+        "cite-ouyang2022training-1": {
+          "path": "chapters/04-rl-for-language-models/index.md",
+          "anchor": "cite-ouyang2022training-1--section-03"
+        }
+      }
+    },
+    "chapters/04-rl-for-language-models/section-04.md": {
+      "path": "chapters/04-rl-for-language-models/index.md",
+      "anchor": "what-this-part-covers",
+      "hashes": {}
+    },
+    "chapters/05-ppo/index.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "ppo-proximal-policy-optimization",
+      "hashes": {
+        "motivation-and-history": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "motivation-and-history"
+        },
+        "the-clipped-objective": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "the-clipped-objective"
+        },
+        "full-ppo-loss": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "full-ppo-loss"
+        },
+        "derivation-of-the-ppo-gradient-and-update-rule": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "derivation-of-the-ppo-gradient-and-update-rule"
+        },
+        "rollout-buffer-and-rollouts": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "rollout-buffer-and-rollouts"
+        },
+        "ppo-for-rlhf-the-full-loop": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "ppo-for-rlhf-the-full-loop"
+        },
+        "detailed-mechanics-logits-and-policy-updates": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "detailed-mechanics-logits-and-policy-updates"
+        },
+        "trl-implementation": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "trl-implementation"
+        },
+        "critical-hyperparameters": {
+          "path": "chapters/05-ppo/index.md",
+          "anchor": "critical-hyperparameters"
+        }
+      }
+    },
+    "chapters/05-ppo/section-01.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "motivation-and-history",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-02.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "the-clipped-objective",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-03.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "full-ppo-loss",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-04.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "derivation-of-the-ppo-gradient-and-update-rule",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-05.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "rollout-buffer-and-rollouts",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-06.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "ppo-for-rlhf-the-full-loop",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-07.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "detailed-mechanics-logits-and-policy-updates",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-08.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "trl-implementation",
+      "hashes": {}
+    },
+    "chapters/05-ppo/section-09.md": {
+      "path": "chapters/05-ppo/index.md",
+      "anchor": "critical-hyperparameters",
+      "hashes": {}
+    },
+    "chapters/06-dpo/index.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "dpo-direct-preference-optimization",
+      "hashes": {
+        "motivation": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "motivation"
+        },
+        "mathematical-derivation": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "mathematical-derivation"
+        },
+        "gradient-analysis": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "gradient-analysis"
+        },
+        "trl-implementation-dup2": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "trl-implementation-dup2"
+        },
+        "how-dpo-works-full-mechanics": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "how-dpo-works-full-mechanics"
+        },
+        "dpo-variants-and-when-each-fails": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "dpo-variants-and-when-each-fails"
+        },
+        "beta-selection-guide": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "beta-selection-guide"
+        },
+        "dpo-batch-size-configuration-and-scaling": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "dpo-batch-size-configuration-and-scaling"
+        },
+        "sec:dpo-variants": {
+          "path": "chapters/06-dpo/index.md",
+          "anchor": "sec:dpo-variants"
+        }
+      }
+    },
+    "chapters/06-dpo/section-01.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "motivation",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-02.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "mathematical-derivation",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-03.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "gradient-analysis",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-04.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "trl-implementation-dup2",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-05.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "how-dpo-works-full-mechanics",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-06.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "dpo-variants-and-when-each-fails",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-07.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "beta-selection-guide",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-08.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "dpo-batch-size-configuration-and-scaling",
+      "hashes": {}
+    },
+    "chapters/06-dpo/section-09.md": {
+      "path": "chapters/06-dpo/index.md",
+      "anchor": "sec:dpo-variants",
+      "hashes": {}
+    },
+    "chapters/07-grpo/index.md": {
+      "path": "chapters/07-grpo/index.md",
+      "anchor": "grpo-group-relative-policy-optimization",
+      "hashes": {
+        "motivation-dup2": {
+          "path": "chapters/07-grpo/index.md",
+          "anchor": "motivation-dup2"
+        },
+        "algorithm": {
+          "path": "chapters/07-grpo/index.md",
+          "anchor": "algorithm"
+        },
+        "trl-implementation-dup3": {
+          "path": "chapters/07-grpo/index.md",
+          "anchor": "trl-implementation-dup3"
+        },
+        "group-size-analysis": {
+          "path": "chapters/07-grpo/index.md",
+          "anchor": "group-size-analysis"
+        },
+        "grpo-variants-and-extensions": {
+          "path": "chapters/07-grpo/index.md",
+          "anchor": "grpo-variants-and-extensions"
+        }
+      }
+    },
+    "chapters/07-grpo/section-01.md": {
+      "path": "chapters/07-grpo/index.md",
+      "anchor": "motivation-dup2",
+      "hashes": {
+        "cite-shao2024deepseekmath-1": {
+          "path": "chapters/07-grpo/index.md",
+          "anchor": "cite-shao2024deepseekmath-1--section-01"
+        }
+      }
+    },
+    "chapters/07-grpo/section-02.md": {
+      "path": "chapters/07-grpo/index.md",
+      "anchor": "algorithm",
+      "hashes": {
+        "cite-deepseek2025r1-1": {
+          "path": "chapters/07-grpo/index.md",
+          "anchor": "cite-deepseek2025r1-1--section-02"
+        }
+      }
+    },
+    "chapters/07-grpo/section-03.md": {
+      "path": "chapters/07-grpo/index.md",
+      "anchor": "trl-implementation-dup3",
+      "hashes": {}
+    },
+    "chapters/07-grpo/section-04.md": {
+      "path": "chapters/07-grpo/index.md",
+      "anchor": "group-size-analysis",
+      "hashes": {}
+    },
+    "chapters/07-grpo/section-05.md": {
+      "path": "chapters/07-grpo/index.md",
+      "anchor": "grpo-variants-and-extensions",
+      "hashes": {}
+    },
+    "chapters/08-preference-optimization/index.md": {
+      "path": "chapters/08-preference-optimization/index.md",
+      "anchor": "ch:po-variants",
+      "hashes": {
+        "sec:online-dpo": {
+          "path": "chapters/08-preference-optimization/index.md",
+          "anchor": "sec:online-dpo"
+        },
+        "sec:kto": {
+          "path": "chapters/08-preference-optimization/index.md",
+          "anchor": "sec:kto"
+        },
+        "ipo-identity-preference-optimization": {
+          "path": "chapters/08-preference-optimization/index.md",
+          "anchor": "ipo-identity-preference-optimization"
+        },
+        "sec:orpo": {
+          "path": "chapters/08-preference-optimization/index.md",
+          "anchor": "sec:orpo"
+        },
+        "best-of-n-sampling-rejection-sampling": {
+          "path": "chapters/08-preference-optimization/index.md",
+          "anchor": "best-of-n-sampling-rejection-sampling"
+        },
+        "sec:method-comparison": {
+          "path": "chapters/08-preference-optimization/index.md",
+          "anchor": "sec:method-comparison"
+        }
+      }
+    },
+    "chapters/08-preference-optimization/section-01.md": {
+      "path": "chapters/08-preference-optimization/index.md",
+      "anchor": "sec:online-dpo",
+      "hashes": {}
+    },
+    "chapters/08-preference-optimization/section-02.md": {
+      "path": "chapters/08-preference-optimization/index.md",
+      "anchor": "sec:kto",
+      "hashes": {}
+    },
+    "chapters/08-preference-optimization/section-03.md": {
+      "path": "chapters/08-preference-optimization/index.md",
+      "anchor": "ipo-identity-preference-optimization",
+      "hashes": {}
+    },
+    "chapters/08-preference-optimization/section-04.md": {
+      "path": "chapters/08-preference-optimization/index.md",
+      "anchor": "sec:orpo",
+      "hashes": {}
+    },
+    "chapters/08-preference-optimization/section-05.md": {
+      "path": "chapters/08-preference-optimization/index.md",
+      "anchor": "best-of-n-sampling-rejection-sampling",
+      "hashes": {}
+    },
+    "chapters/08-preference-optimization/section-06.md": {
+      "path": "chapters/08-preference-optimization/index.md",
+      "anchor": "sec:method-comparison",
+      "hashes": {}
+    },
+    "chapters/09-reward-models/index.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "sec:reward-models",
+      "hashes": {
+        "sec:bradley-terry": {
+          "path": "chapters/09-reward-models/index.md",
+          "anchor": "sec:bradley-terry"
+        },
+        "sec:rm-architectures": {
+          "path": "chapters/09-reward-models/index.md",
+          "anchor": "sec:rm-architectures"
+        },
+        "sec:rm-tricks": {
+          "path": "chapters/09-reward-models/index.md",
+          "anchor": "sec:rm-tricks"
+        },
+        "sec:prm-orm": {
+          "path": "chapters/09-reward-models/index.md",
+          "anchor": "sec:prm-orm"
+        },
+        "sec:rule-based-rewards": {
+          "path": "chapters/09-reward-models/index.md",
+          "anchor": "sec:rule-based-rewards"
+        },
+        "sec:multi-objective-rewards": {
+          "path": "chapters/09-reward-models/index.md",
+          "anchor": "sec:multi-objective-rewards"
+        },
+        "listwise-rank-based-rewards": {
+          "path": "chapters/09-reward-models/index.md",
+          "anchor": "listwise-rank-based-rewards"
+        }
+      }
+    },
+    "chapters/09-reward-models/section-01.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "sec:bradley-terry",
+      "hashes": {}
+    },
+    "chapters/09-reward-models/section-02.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "sec:rm-architectures",
+      "hashes": {}
+    },
+    "chapters/09-reward-models/section-03.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "sec:rm-tricks",
+      "hashes": {}
+    },
+    "chapters/09-reward-models/section-04.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "sec:prm-orm",
+      "hashes": {}
+    },
+    "chapters/09-reward-models/section-05.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "sec:rule-based-rewards",
+      "hashes": {}
+    },
+    "chapters/09-reward-models/section-06.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "sec:multi-objective-rewards",
+      "hashes": {}
+    },
+    "chapters/09-reward-models/section-07.md": {
+      "path": "chapters/09-reward-models/index.md",
+      "anchor": "listwise-rank-based-rewards",
+      "hashes": {}
+    },
+    "chapters/10-sft/index.md": {
+      "path": "chapters/10-sft/index.md",
+      "anchor": "sec:sft-best-practices",
+      "hashes": {
+        "sec:sequence-packing": {
+          "path": "chapters/10-sft/index.md",
+          "anchor": "sec:sequence-packing"
+        },
+        "sec:chat-templates": {
+          "path": "chapters/10-sft/index.md",
+          "anchor": "sec:chat-templates"
+        },
+        "sec:completion-masking": {
+          "path": "chapters/10-sft/index.md",
+          "anchor": "sec:completion-masking"
+        },
+        "sec:data-mixing": {
+          "path": "chapters/10-sft/index.md",
+          "anchor": "sec:data-mixing"
+        },
+        "sec:sft-pitfalls": {
+          "path": "chapters/10-sft/index.md",
+          "anchor": "sec:sft-pitfalls"
+        },
+        "sec:sft-rl-connection": {
+          "path": "chapters/10-sft/index.md",
+          "anchor": "sec:sft-rl-connection"
+        }
+      }
+    },
+    "chapters/10-sft/section-01.md": {
+      "path": "chapters/10-sft/index.md",
+      "anchor": "sec:sequence-packing",
+      "hashes": {}
+    },
+    "chapters/10-sft/section-02.md": {
+      "path": "chapters/10-sft/index.md",
+      "anchor": "sec:chat-templates",
+      "hashes": {}
+    },
+    "chapters/10-sft/section-03.md": {
+      "path": "chapters/10-sft/index.md",
+      "anchor": "sec:completion-masking",
+      "hashes": {}
+    },
+    "chapters/10-sft/section-04.md": {
+      "path": "chapters/10-sft/index.md",
+      "anchor": "sec:data-mixing",
+      "hashes": {}
+    },
+    "chapters/10-sft/section-05.md": {
+      "path": "chapters/10-sft/index.md",
+      "anchor": "sec:sft-pitfalls",
+      "hashes": {}
+    },
+    "chapters/10-sft/section-06.md": {
+      "path": "chapters/10-sft/index.md",
+      "anchor": "sec:sft-rl-connection",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/index.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "system-architecture-infrastructure-at-scale",
+      "hashes": {
+        "the-4-model-memory-challenge": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "the-4-model-memory-challenge"
+        },
+        "sec:parallelism": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "sec:parallelism"
+        },
+        "the-generation-bottleneck-quantitative-analysis": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "the-generation-bottleneck-quantitative-analysis"
+        },
+        "decoupled-architecture-production-design": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "decoupled-architecture-production-design"
+        },
+        "weight-synchronization-strategies": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "weight-synchronization-strategies"
+        },
+        "memory-optimization-techniques": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "memory-optimization-techniques"
+        },
+        "fault-tolerance-at-scale": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "fault-tolerance-at-scale"
+        },
+        "end-to-end-latency-breakdown": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "end-to-end-latency-breakdown"
+        },
+        "monitoring-and-observability": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "monitoring-and-observability"
+        },
+        "sec:network-topology": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "sec:network-topology"
+        },
+        "sec:mfu": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "sec:mfu"
+        },
+        "cost-analysis-and-cloud-deployment": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "cost-analysis-and-cloud-deployment"
+        },
+        "sec:checkpointing": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "sec:checkpointing"
+        },
+        "sec:hardware-guide": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "sec:hardware-guide"
+        },
+        "sec:rl-optimizer-config": {
+          "path": "chapters/11-training-infrastructure/index.md",
+          "anchor": "sec:rl-optimizer-config"
+        }
+      }
+    },
+    "chapters/11-training-infrastructure/section-01.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "the-4-model-memory-challenge",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-02.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "sec:parallelism",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-03.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "the-generation-bottleneck-quantitative-analysis",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-04.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "decoupled-architecture-production-design",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-05.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "weight-synchronization-strategies",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-06.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "memory-optimization-techniques",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-07.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "fault-tolerance-at-scale",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-08.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "end-to-end-latency-breakdown",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-09.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "monitoring-and-observability",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-10.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "sec:network-topology",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-11.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "sec:mfu",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-12.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "cost-analysis-and-cloud-deployment",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-13.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "sec:checkpointing",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-14.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "sec:hardware-guide",
+      "hashes": {}
+    },
+    "chapters/11-training-infrastructure/section-15.md": {
+      "path": "chapters/11-training-infrastructure/index.md",
+      "anchor": "sec:rl-optimizer-config",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/index.md": {
+      "path": "chapters/12-agentic-training/index.md",
+      "anchor": "llm-agentic-training",
+      "hashes": {
+        "motivation-from-chatbots-to-autonomous-agents": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "motivation-from-chatbots-to-autonomous-agents"
+        },
+        "trajectory-buffers-for-llm-agents": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "trajectory-buffers-for-llm-agents"
+        },
+        "operational-paradigms": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "operational-paradigms"
+        },
+        "paradigm-comparison": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "paradigm-comparison"
+        },
+        "major-techniques-in-agentic-rl": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "major-techniques-in-agentic-rl"
+        },
+        "use-case-agentic-rl-for-a-productivity-co-pilot": {
+          "path": "chapters/12-agentic-training/reading-02.md",
+          "anchor": "use-case-agentic-rl-for-a-productivity-co-pilot"
+        },
+        "use-case-building-a-research-agent-from-scratch": {
+          "path": "chapters/12-agentic-training/reading-02.md",
+          "anchor": "use-case-building-a-research-agent-from-scratch"
+        },
+        "state-of-the-art-rl-for-llm-agents": {
+          "path": "chapters/12-agentic-training/reading-03.md",
+          "anchor": "state-of-the-art-rl-for-llm-agents"
+        },
+        "sec:interactive-rl-envs": {
+          "path": "chapters/12-agentic-training/reading-03.md",
+          "anchor": "sec:interactive-rl-envs"
+        }
+      }
+    },
+    "chapters/12-agentic-training/section-01.md": {
+      "path": "chapters/12-agentic-training/index.md",
+      "anchor": "motivation-from-chatbots-to-autonomous-agents",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/section-02.md": {
+      "path": "chapters/12-agentic-training/index.md",
+      "anchor": "trajectory-buffers-for-llm-agents",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/section-03.md": {
+      "path": "chapters/12-agentic-training/index.md",
+      "anchor": "operational-paradigms",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/section-04.md": {
+      "path": "chapters/12-agentic-training/index.md",
+      "anchor": "paradigm-comparison",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/section-05.md": {
+      "path": "chapters/12-agentic-training/index.md",
+      "anchor": "major-techniques-in-agentic-rl",
+      "hashes": {
+        "cite-zelikman2022star-1": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "cite-zelikman2022star-1--section-05"
+        },
+        "cite-shinn2023reflexion-1": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "cite-shinn2023reflexion-1--section-05"
+        },
+        "cite-yao2023react-1": {
+          "path": "chapters/12-agentic-training/index.md",
+          "anchor": "cite-yao2023react-1--section-05"
+        }
+      }
+    },
+    "chapters/12-agentic-training/section-06.md": {
+      "path": "chapters/12-agentic-training/reading-02.md",
+      "anchor": "use-case-agentic-rl-for-a-productivity-co-pilot",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/section-07.md": {
+      "path": "chapters/12-agentic-training/reading-02.md",
+      "anchor": "use-case-building-a-research-agent-from-scratch",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/section-08.md": {
+      "path": "chapters/12-agentic-training/reading-03.md",
+      "anchor": "state-of-the-art-rl-for-llm-agents",
+      "hashes": {}
+    },
+    "chapters/12-agentic-training/section-09.md": {
+      "path": "chapters/12-agentic-training/reading-03.md",
+      "anchor": "sec:interactive-rl-envs",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/index.md": {
+      "path": "chapters/13-reasoning/index.md",
+      "anchor": "sec:rl_reasoning",
+      "hashes": {
+        "subsec:reasoning_motivation": {
+          "path": "chapters/13-reasoning/index.md",
+          "anchor": "subsec:reasoning_motivation"
+        },
+        "sec:test_time_methods": {
+          "path": "chapters/13-reasoning/index.md",
+          "anchor": "sec:test_time_methods"
+        },
+        "subsec:deepseek_r1": {
+          "path": "chapters/13-reasoning/reading-02.md",
+          "anchor": "subsec:deepseek_r1"
+        },
+        "subsec:openai_o1": {
+          "path": "chapters/13-reasoning/reading-02.md",
+          "anchor": "subsec:openai_o1"
+        },
+        "subsec:qwq_qwen": {
+          "path": "chapters/13-reasoning/reading-02.md",
+          "anchor": "subsec:qwq_qwen"
+        },
+        "subsec:reasoning_methods": {
+          "path": "chapters/13-reasoning/reading-03.md",
+          "anchor": "subsec:reasoning_methods"
+        },
+        "subsec:reasoning_scaling": {
+          "path": "chapters/13-reasoning/reading-03.md",
+          "anchor": "subsec:reasoning_scaling"
+        },
+        "subsec:reasoning_comparison": {
+          "path": "chapters/13-reasoning/reading-03.md",
+          "anchor": "subsec:reasoning_comparison"
+        },
+        "sec:inference-time-scaling": {
+          "path": "chapters/13-reasoning/reading-03.md",
+          "anchor": "sec:inference-time-scaling"
+        },
+        "sec:on-policy-self-distillation": {
+          "path": "chapters/13-reasoning/reading-03.md",
+          "anchor": "sec:on-policy-self-distillation"
+        },
+        "subsec:reasoning_summary": {
+          "path": "chapters/13-reasoning/reading-03.md",
+          "anchor": "subsec:reasoning_summary"
+        }
+      }
+    },
+    "chapters/13-reasoning/section-01.md": {
+      "path": "chapters/13-reasoning/index.md",
+      "anchor": "subsec:reasoning_motivation",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-02.md": {
+      "path": "chapters/13-reasoning/index.md",
+      "anchor": "sec:test_time_methods",
+      "hashes": {
+        "cite-wei2022chain-1": {
+          "path": "chapters/13-reasoning/index.md",
+          "anchor": "cite-wei2022chain-1--section-02"
+        }
+      }
+    },
+    "chapters/13-reasoning/section-03.md": {
+      "path": "chapters/13-reasoning/reading-02.md",
+      "anchor": "subsec:deepseek_r1",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-04.md": {
+      "path": "chapters/13-reasoning/reading-02.md",
+      "anchor": "subsec:openai_o1",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-05.md": {
+      "path": "chapters/13-reasoning/reading-02.md",
+      "anchor": "subsec:qwq_qwen",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-06.md": {
+      "path": "chapters/13-reasoning/reading-03.md",
+      "anchor": "subsec:reasoning_methods",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-07.md": {
+      "path": "chapters/13-reasoning/reading-03.md",
+      "anchor": "subsec:reasoning_scaling",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-08.md": {
+      "path": "chapters/13-reasoning/reading-03.md",
+      "anchor": "subsec:reasoning_comparison",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-09.md": {
+      "path": "chapters/13-reasoning/reading-03.md",
+      "anchor": "sec:inference-time-scaling",
+      "hashes": {
+        "cite-snell2024scaling-1": {
+          "path": "chapters/13-reasoning/reading-03.md",
+          "anchor": "cite-snell2024scaling-1--section-09"
+        }
+      }
+    },
+    "chapters/13-reasoning/section-10.md": {
+      "path": "chapters/13-reasoning/reading-03.md",
+      "anchor": "sec:on-policy-self-distillation",
+      "hashes": {}
+    },
+    "chapters/13-reasoning/section-11.md": {
+      "path": "chapters/13-reasoning/reading-03.md",
+      "anchor": "subsec:reasoning_summary",
+      "hashes": {}
+    },
+    "chapters/14-evaluation/index.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "sec:llm-evaluation",
+      "hashes": {
+        "subsec:eval-scheme": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:eval-scheme"
+        },
+        "subsec:data-collection": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:data-collection"
+        },
+        "subsec:synthetic-data": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:synthetic-data"
+        },
+        "subsec:ranking-metrics": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:ranking-metrics"
+        },
+        "subsec:generation-metrics": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:generation-metrics"
+        },
+        "subsec:agentic-metrics": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:agentic-metrics"
+        },
+        "subsec:llm-as-judge": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:llm-as-judge"
+        },
+        "subsec:eval-pitfalls": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "subsec:eval-pitfalls"
+        }
+      }
+    },
+    "chapters/14-evaluation/section-01.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:eval-scheme",
+      "hashes": {}
+    },
+    "chapters/14-evaluation/section-02.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:data-collection",
+      "hashes": {}
+    },
+    "chapters/14-evaluation/section-03.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:synthetic-data",
+      "hashes": {}
+    },
+    "chapters/14-evaluation/section-04.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:ranking-metrics",
+      "hashes": {
+        "cite-zheng2023judging-1": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "cite-zheng2023judging-1--section-04"
+        }
+      }
+    },
+    "chapters/14-evaluation/section-05.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:generation-metrics",
+      "hashes": {}
+    },
+    "chapters/14-evaluation/section-06.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:agentic-metrics",
+      "hashes": {}
+    },
+    "chapters/14-evaluation/section-07.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:llm-as-judge",
+      "hashes": {
+        "cite-zheng2023judging-1": {
+          "path": "chapters/14-evaluation/index.md",
+          "anchor": "cite-zheng2023judging-1--section-07"
+        }
+      }
+    },
+    "chapters/14-evaluation/section-08.md": {
+      "path": "chapters/14-evaluation/index.md",
+      "anchor": "subsec:eval-pitfalls",
+      "hashes": {}
+    },
+    "chapters/15-agentic-ai/index.md": {
+      "path": "chapters/15-agentic-ai/index.md",
+      "anchor": "introduction-to-agentic-ai",
+      "hashes": {}
+    },
+    "chapters/16-rag/index.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "retrieval-augmented-generation-rag",
+      "hashes": {
+        "motivation-and-problem-statement": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "motivation-and-problem-statement"
+        },
+        "core-rag-architecture": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "core-rag-architecture"
+        },
+        "retrieval-methods": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "retrieval-methods"
+        },
+        "sec:chunking": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "sec:chunking"
+        },
+        "advanced-rag-patterns": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "advanced-rag-patterns"
+        },
+        "efficient-rag-decoding-refrag": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "efficient-rag-decoding-refrag"
+        },
+        "sec:agentic_rag": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "sec:agentic_rag"
+        },
+        "evaluation-dup3": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "evaluation-dup3"
+        },
+        "production-considerations": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "production-considerations"
+        },
+        "rag-fine-tuning-synergy": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "rag-fine-tuning-synergy"
+        },
+        "comprehensive-rag-approach-comparison": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "comprehensive-rag-approach-comparison"
+        }
+      }
+    },
+    "chapters/16-rag/section-01.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "motivation-and-problem-statement",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-02.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "core-rag-architecture",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-03.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "retrieval-methods",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-04.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "sec:chunking",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-05.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "advanced-rag-patterns",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-06.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "efficient-rag-decoding-refrag",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-07.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "sec:agentic_rag",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-08.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "evaluation-dup3",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-09.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "production-considerations",
+      "hashes": {}
+    },
+    "chapters/16-rag/section-10.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "rag-fine-tuning-synergy",
+      "hashes": {
+        "cite-lewis2020retrieval-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-lewis2020retrieval-1--section-10"
+        }
+      }
+    },
+    "chapters/16-rag/section-11.md": {
+      "path": "chapters/16-rag/index.md",
+      "anchor": "comprehensive-rag-approach-comparison",
+      "hashes": {
+        "cite-lewis2020retrieval-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-lewis2020retrieval-1--section-11"
+        },
+        "cite-nogueira2019passage-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-nogueira2019passage-1--section-11"
+        },
+        "cite-gao2022precise-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-gao2022precise-1--section-11"
+        },
+        "cite-rackauckas2023ragfusion-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-rackauckas2023ragfusion-1--section-11"
+        },
+        "cite-asai2023selfrag-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-asai2023selfrag-1--section-11"
+        },
+        "cite-yan2024crag-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-yan2024crag-1--section-11"
+        },
+        "cite-jeong2024adaptive-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-jeong2024adaptive-1--section-11"
+        },
+        "cite-edge2024local-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-edge2024local-1--section-11"
+        },
+        "cite-zhang2024raft-1": {
+          "path": "chapters/16-rag/index.md",
+          "anchor": "cite-zhang2024raft-1--section-11"
+        }
+      }
+    },
+    "chapters/17-memory/index.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:agentic-memory",
+      "hashes": {
+        "sec:memory-motivation": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-motivation"
+        },
+        "sec:memory-taxonomy": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-taxonomy"
+        },
+        "sec:memory-architectures": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-architectures"
+        },
+        "sec:memory-operations": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-operations"
+        },
+        "sec:memory-multiturn": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-multiturn"
+        },
+        "sec:memory-multiagent": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-multiagent"
+        },
+        "sec:rl-memory": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:rl-memory"
+        },
+        "sec:memory-comparison": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-comparison"
+        },
+        "sec:memory-evaluation": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-evaluation"
+        },
+        "sec:memory-implementation": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-implementation"
+        },
+        "sec:memory-recent": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-recent"
+        },
+        "sec:proactive-memory": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:proactive-memory"
+        },
+        "sec:memory-summary": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "sec:memory-summary"
+        }
+      }
+    },
+    "chapters/17-memory/section-01.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-motivation",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-02.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-taxonomy",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-03.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-architectures",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-04.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-operations",
+      "hashes": {
+        "cite-packer2023memgpt-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-packer2023memgpt-1--section-04"
+        }
+      }
+    },
+    "chapters/17-memory/section-05.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-multiturn",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-06.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-multiagent",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-07.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:rl-memory",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-08.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-comparison",
+      "hashes": {
+        "cite-lewis2020retrieval-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-lewis2020retrieval-1--section-08"
+        },
+        "cite-chen2022hybrid-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-chen2022hybrid-1--section-08"
+        },
+        "cite-lacroix2020tensor-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-lacroix2020tensor-1--section-08"
+        },
+        "cite-sukhbaatar2015end-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-sukhbaatar2015end-1--section-08"
+        },
+        "cite-packer2023memgpt-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-packer2023memgpt-1--section-08"
+        },
+        "cite-edge2024local-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-edge2024local-1--section-08"
+        }
+      }
+    },
+    "chapters/17-memory/section-09.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-evaluation",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-10.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-implementation",
+      "hashes": {
+        "cite-packer2023memgpt-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-packer2023memgpt-1--section-10"
+        }
+      }
+    },
+    "chapters/17-memory/section-11.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-recent",
+      "hashes": {
+        "cite-sumers2023coala-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-sumers2023coala-1--section-11"
+        },
+        "cite-chhikara2025mem0-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-chhikara2025mem0-1--section-11"
+        },
+        "cite-xu2025amem-1": {
+          "path": "chapters/17-memory/index.md",
+          "anchor": "cite-xu2025amem-1--section-11"
+        }
+      }
+    },
+    "chapters/17-memory/section-12.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:proactive-memory",
+      "hashes": {}
+    },
+    "chapters/17-memory/section-13.md": {
+      "path": "chapters/17-memory/index.md",
+      "anchor": "sec:memory-summary",
+      "hashes": {}
+    },
+    "chapters/18-agent-harness/index.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "sec:agent-harness",
+      "hashes": {
+        "subsec:what-is-harness": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:what-is-harness"
+        },
+        "subsec:context-management": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:context-management"
+        },
+        "subsec:prompt-architecture": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:prompt-architecture"
+        },
+        "tool-integration-and-execution": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "tool-integration-and-execution"
+        },
+        "subsec:orchestration-patterns": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:orchestration-patterns"
+        },
+        "subsec:state-management": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:state-management"
+        },
+        "subsec:error-handling": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:error-handling"
+        },
+        "scaling-and-production-concerns": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "scaling-and-production-concerns"
+        },
+        "subsec:framework-comparison": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:framework-comparison"
+        },
+        "subsec:implementation": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "subsec:implementation"
+        }
+      }
+    },
+    "chapters/18-agent-harness/section-01.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:what-is-harness",
+      "hashes": {}
+    },
+    "chapters/18-agent-harness/section-02.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:context-management",
+      "hashes": {
+        "cite-packer2023memgpt-1": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "cite-packer2023memgpt-1--section-02"
+        }
+      }
+    },
+    "chapters/18-agent-harness/section-03.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:prompt-architecture",
+      "hashes": {}
+    },
+    "chapters/18-agent-harness/section-04.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "tool-integration-and-execution",
+      "hashes": {}
+    },
+    "chapters/18-agent-harness/section-05.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:orchestration-patterns",
+      "hashes": {}
+    },
+    "chapters/18-agent-harness/section-06.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:state-management",
+      "hashes": {
+        "cite-packer2023memgpt-1": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "cite-packer2023memgpt-1--section-06"
+        }
+      }
+    },
+    "chapters/18-agent-harness/section-07.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:error-handling",
+      "hashes": {}
+    },
+    "chapters/18-agent-harness/section-08.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "scaling-and-production-concerns",
+      "hashes": {}
+    },
+    "chapters/18-agent-harness/section-09.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:framework-comparison",
+      "hashes": {
+        "cite-langchain2024langgraph-1": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "cite-langchain2024langgraph-1--section-09"
+        },
+        "cite-wu2023autogen-1": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "cite-wu2023autogen-1--section-09"
+        },
+        "cite-openai2024swarm-1": {
+          "path": "chapters/18-agent-harness/index.md",
+          "anchor": "cite-openai2024swarm-1--section-09"
+        }
+      }
+    },
+    "chapters/18-agent-harness/section-10.md": {
+      "path": "chapters/18-agent-harness/index.md",
+      "anchor": "subsec:implementation",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/index.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-engineering",
+      "hashes": {
+        "sec:context-engineering": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:context-engineering"
+        },
+        "sec:loop-as-rl": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-as-rl"
+        },
+        "sec:loop-anatomy": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-anatomy"
+        },
+        "sec:loop-pseudocode": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-pseudocode"
+        },
+        "sec:loop-patterns": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-patterns"
+        },
+        "sec:verification-engineering": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:verification-engineering"
+        },
+        "sec:termination-engineering": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:termination-engineering"
+        },
+        "sec:loop-failures": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-failures"
+        },
+        "sec:production-loops": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:production-loops"
+        },
+        "sec:loop-context-management": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-context-management"
+        },
+        "sec:when-not-loops": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:when-not-loops"
+        },
+        "sec:loop-economics": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-economics"
+        },
+        "sec:loop-history": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-history"
+        },
+        "sec:loop-summary": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "sec:loop-summary"
+        }
+      }
+    },
+    "chapters/19-loop-engineering/section-01.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:context-engineering",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-02.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-as-rl",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-03.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-anatomy",
+      "hashes": {
+        "cite-osmani2026loop-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-osmani2026loop-1--section-03"
+        }
+      }
+    },
+    "chapters/19-loop-engineering/section-04.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-pseudocode",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-05.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-patterns",
+      "hashes": {
+        "cite-shinn2023reflexion-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-shinn2023reflexion-1--section-05"
+        },
+        "cite-shinn2023reflexion-2": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-shinn2023reflexion-2--section-05"
+        },
+        "cite-anthropic2024buildingagents-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-anthropic2024buildingagents-1--section-05"
+        }
+      }
+    },
+    "chapters/19-loop-engineering/section-06.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:verification-engineering",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-07.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:termination-engineering",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-08.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-failures",
+      "hashes": {
+        "cite-osmani2026loop-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-osmani2026loop-1--section-08"
+        }
+      }
+    },
+    "chapters/19-loop-engineering/section-09.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:production-loops",
+      "hashes": {
+        "cite-karpathy2026autoresearch-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-karpathy2026autoresearch-1--section-09"
+        },
+        "cite-steinberger2026openclaw-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-steinberger2026openclaw-1--section-09"
+        }
+      }
+    },
+    "chapters/19-loop-engineering/section-10.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-context-management",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-11.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:when-not-loops",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-12.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-economics",
+      "hashes": {}
+    },
+    "chapters/19-loop-engineering/section-13.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-history",
+      "hashes": {
+        "cite-shinn2023reflexion-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-shinn2023reflexion-1--section-13"
+        },
+        "cite-madaan2023selfrefine-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-madaan2023selfrefine-1--section-13"
+        },
+        "cite-osmani2026loop-1": {
+          "path": "chapters/19-loop-engineering/index.md",
+          "anchor": "cite-osmani2026loop-1--section-13"
+        }
+      }
+    },
+    "chapters/19-loop-engineering/section-14.md": {
+      "path": "chapters/19-loop-engineering/index.md",
+      "anchor": "sec:loop-summary",
+      "hashes": {}
+    },
+    "chapters/20-agent-patterns/index.md": {
+      "path": "chapters/20-agent-patterns/index.md",
+      "anchor": "sec:agent-design-patterns",
+      "hashes": {
+        "workflow-patterns": {
+          "path": "chapters/20-agent-patterns/index.md",
+          "anchor": "workflow-patterns"
+        },
+        "autonomous-agent-patterns": {
+          "path": "chapters/20-agent-patterns/index.md",
+          "anchor": "autonomous-agent-patterns"
+        },
+        "design-principles": {
+          "path": "chapters/20-agent-patterns/index.md",
+          "anchor": "design-principles"
+        },
+        "pattern-selection-guide": {
+          "path": "chapters/20-agent-patterns/index.md",
+          "anchor": "pattern-selection-guide"
+        }
+      }
+    },
+    "chapters/20-agent-patterns/section-01.md": {
+      "path": "chapters/20-agent-patterns/index.md",
+      "anchor": "workflow-patterns",
+      "hashes": {}
+    },
+    "chapters/20-agent-patterns/section-02.md": {
+      "path": "chapters/20-agent-patterns/index.md",
+      "anchor": "autonomous-agent-patterns",
+      "hashes": {}
+    },
+    "chapters/20-agent-patterns/section-03.md": {
+      "path": "chapters/20-agent-patterns/index.md",
+      "anchor": "design-principles",
+      "hashes": {
+        "cite-anthropic2024buildingagents-1": {
+          "path": "chapters/20-agent-patterns/index.md",
+          "anchor": "cite-anthropic2024buildingagents-1--section-03"
+        }
+      }
+    },
+    "chapters/20-agent-patterns/section-04.md": {
+      "path": "chapters/20-agent-patterns/index.md",
+      "anchor": "pattern-selection-guide",
+      "hashes": {}
+    },
+    "chapters/21-environments/index.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:agentic-environments",
+      "hashes": {
+        "sec:env-motivation": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:env-motivation"
+        },
+        "sec:env-design": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:env-design"
+        },
+        "sec:env-types": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:env-types"
+        },
+        "sec:openenv": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:openenv"
+        },
+        "sec:custom-env": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:custom-env"
+        },
+        "sec:interface-patterns": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:interface-patterns"
+        },
+        "sec:eval-harness": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:eval-harness"
+        },
+        "sec:code-example": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:code-example"
+        },
+        "sec:env-comparison": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:env-comparison"
+        },
+        "sec:env-summary": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "sec:env-summary"
+        }
+      }
+    },
+    "chapters/21-environments/section-01.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:env-motivation",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-02.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:env-design",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-03.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:env-types",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-04.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:openenv",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-05.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:custom-env",
+      "hashes": {
+        "cite-towers2024gymnasium-1": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "cite-towers2024gymnasium-1--section-05"
+        }
+      }
+    },
+    "chapters/21-environments/section-06.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:interface-patterns",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-07.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:eval-harness",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-08.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:code-example",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-09.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:env-comparison",
+      "hashes": {}
+    },
+    "chapters/21-environments/section-10.md": {
+      "path": "chapters/21-environments/index.md",
+      "anchor": "sec:env-summary",
+      "hashes": {
+        "cite-huggingface2025openenv-1": {
+          "path": "chapters/21-environments/index.md",
+          "anchor": "cite-huggingface2025openenv-1--section-10"
+        }
+      }
+    },
+    "chapters/22-mcp/index.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp",
+      "hashes": {
+        "sec:mcp:motivation": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:motivation"
+        },
+        "sec:mcp:architecture": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:architecture"
+        },
+        "sec:mcp:primitives": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:primitives"
+        },
+        "sec:mcp:protocol": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:protocol"
+        },
+        "sec:mcp:tools": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:tools"
+        },
+        "sec:mcp:security": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:security"
+        },
+        "sec:mcp:implementation": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:implementation"
+        },
+        "sec:mcp:ecosystem": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:ecosystem"
+        },
+        "sec:mcp:alternatives": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:alternatives"
+        },
+        "sec:mcp:training": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:training"
+        },
+        "sec:mcp:summary": {
+          "path": "chapters/22-mcp/index.md",
+          "anchor": "sec:mcp:summary"
+        }
+      }
+    },
+    "chapters/22-mcp/section-01.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:motivation",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-02.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:architecture",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-03.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:primitives",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-04.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:protocol",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-05.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:tools",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-06.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:security",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-07.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:implementation",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-08.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:ecosystem",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-09.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:alternatives",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-10.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:training",
+      "hashes": {}
+    },
+    "chapters/22-mcp/section-11.md": {
+      "path": "chapters/22-mcp/index.md",
+      "anchor": "sec:mcp:summary",
+      "hashes": {}
+    },
+    "chapters/23-agent-skills/index.md": {
+      "path": "chapters/23-agent-skills/index.md",
+      "anchor": "sec:agent-skills",
+      "hashes": {
+        "what-is-a-skill": {
+          "path": "chapters/23-agent-skills/index.md",
+          "anchor": "what-is-a-skill"
+        },
+        "skill-architecture-patterns": {
+          "path": "chapters/23-agent-skills/index.md",
+          "anchor": "skill-architecture-patterns"
+        },
+        "case-study-anthropics-agent-design": {
+          "path": "chapters/23-agent-skills/index.md",
+          "anchor": "case-study-anthropics-agent-design"
+        },
+        "skill-lifecycle": {
+          "path": "chapters/23-agent-skills/index.md",
+          "anchor": "skill-lifecycle"
+        },
+        "skill-registries-and-marketplaces": {
+          "path": "chapters/23-agent-skills/index.md",
+          "anchor": "skill-registries-and-marketplaces"
+        },
+        "skills-vs.-fine-tuning": {
+          "path": "chapters/23-agent-skills/index.md",
+          "anchor": "skills-vs.-fine-tuning"
+        }
+      }
+    },
+    "chapters/23-agent-skills/section-01.md": {
+      "path": "chapters/23-agent-skills/index.md",
+      "anchor": "what-is-a-skill",
+      "hashes": {}
+    },
+    "chapters/23-agent-skills/section-02.md": {
+      "path": "chapters/23-agent-skills/index.md",
+      "anchor": "skill-architecture-patterns",
+      "hashes": {}
+    },
+    "chapters/23-agent-skills/section-03.md": {
+      "path": "chapters/23-agent-skills/index.md",
+      "anchor": "case-study-anthropics-agent-design",
+      "hashes": {}
+    },
+    "chapters/23-agent-skills/section-04.md": {
+      "path": "chapters/23-agent-skills/index.md",
+      "anchor": "skill-lifecycle",
+      "hashes": {}
+    },
+    "chapters/23-agent-skills/section-05.md": {
+      "path": "chapters/23-agent-skills/index.md",
+      "anchor": "skill-registries-and-marketplaces",
+      "hashes": {}
+    },
+    "chapters/23-agent-skills/section-06.md": {
+      "path": "chapters/23-agent-skills/index.md",
+      "anchor": "skills-vs.-fine-tuning",
+      "hashes": {}
+    },
+    "chapters/24-a2a/index.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a",
+      "hashes": {
+        "sec:a2a:motivation": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:motivation"
+        },
+        "sec:a2a:google": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:google"
+        },
+        "sec:a2a:patterns": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:patterns"
+        },
+        "sec:a2a:discovery": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:discovery"
+        },
+        "sec:a2a:messages": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:messages"
+        },
+        "sec:a2a:coordination": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:coordination"
+        },
+        "sec:a2a:vs_mcp": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:vs_mcp"
+        },
+        "sec:a2a:security": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:security"
+        },
+        "sec:a2a:implementation": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:implementation"
+        },
+        "sec:a2a:summary": {
+          "path": "chapters/24-a2a/index.md",
+          "anchor": "sec:a2a:summary"
+        }
+      }
+    },
+    "chapters/24-a2a/section-01.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:motivation",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-02.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:google",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-03.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:patterns",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-04.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:discovery",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-05.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:messages",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-06.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:coordination",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-07.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:vs_mcp",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-08.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:security",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-09.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:implementation",
+      "hashes": {}
+    },
+    "chapters/24-a2a/section-10.md": {
+      "path": "chapters/24-a2a/index.md",
+      "anchor": "sec:a2a:summary",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/index.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "sec:multi-agent-systems",
+      "hashes": {
+        "subsec:mas-motivation": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-motivation"
+        },
+        "subsec:mas-architectures": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-architectures"
+        },
+        "subsec:coordination-mechanisms": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:coordination-mechanisms"
+        },
+        "subsec:communication-protocols": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:communication-protocols"
+        },
+        "subsec:role-design": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:role-design"
+        },
+        "subsec:mas-patterns": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-patterns"
+        },
+        "subsec:mas-rl-training": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-rl-training"
+        },
+        "subsec:mas-challenges": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-challenges"
+        },
+        "subsec:mas-applications": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-applications"
+        },
+        "subsec:mas-comparison": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-comparison"
+        },
+        "sec:bdi-llm": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "sec:bdi-llm"
+        },
+        "subsec:mas-summary": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "subsec:mas-summary"
+        }
+      }
+    },
+    "chapters/25-multi-agent-systems/section-01.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-motivation",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-02.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-architectures",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-03.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:coordination-mechanisms",
+      "hashes": {
+        "cite-smith1980contract-1": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "cite-smith1980contract-1--section-03"
+        }
+      }
+    },
+    "chapters/25-multi-agent-systems/section-04.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:communication-protocols",
+      "hashes": {
+        "cite-fipa2002acl-1": {
+          "path": "chapters/25-multi-agent-systems/index.md",
+          "anchor": "cite-fipa2002acl-1--section-04"
+        }
+      }
+    },
+    "chapters/25-multi-agent-systems/section-05.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:role-design",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-06.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-patterns",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-07.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-rl-training",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-08.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-challenges",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-09.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-applications",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-10.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-comparison",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-11.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "sec:bdi-llm",
+      "hashes": {}
+    },
+    "chapters/25-multi-agent-systems/section-12.md": {
+      "path": "chapters/25-multi-agent-systems/index.md",
+      "anchor": "subsec:mas-summary",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/index.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "sec:agent-development-frameworks",
+      "hashes": {
+        "subsec:engineering-gap": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:engineering-gap"
+        },
+        "subsec:agent-lifecycle": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:agent-lifecycle"
+        },
+        "subsec:frameworks": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:frameworks"
+        },
+        "subsec:open-source-tooling": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:open-source-tooling"
+        },
+        "subsec:agent-testing": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:agent-testing"
+        },
+        "subsec:observability": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:observability"
+        },
+        "subsec:production-deployment": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:production-deployment"
+        },
+        "subsec:framework-comparison-dup2": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:framework-comparison-dup2"
+        },
+        "subsec:implementation-example": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:implementation-example"
+        },
+        "subsec:agent-dev-summary": {
+          "path": "chapters/26-development-frameworks/index.md",
+          "anchor": "subsec:agent-dev-summary"
+        }
+      }
+    },
+    "chapters/26-development-frameworks/section-01.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:engineering-gap",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-02.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:agent-lifecycle",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-03.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:frameworks",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-04.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:open-source-tooling",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-05.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:agent-testing",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-06.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:observability",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-07.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:production-deployment",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-08.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:framework-comparison-dup2",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-09.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:implementation-example",
+      "hashes": {}
+    },
+    "chapters/26-development-frameworks/section-10.md": {
+      "path": "chapters/26-development-frameworks/index.md",
+      "anchor": "subsec:agent-dev-summary",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/index.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "sec:agentic-ui",
+      "hashes": {
+        "subsec:ui-motivation": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:ui-motivation"
+        },
+        "subsec:ui-paradigms": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:ui-paradigms"
+        },
+        "subsec:ui-components": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:ui-components"
+        },
+        "subsec:ui-frameworks": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:ui-frameworks"
+        },
+        "subsec:generative-ui": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:generative-ui"
+        },
+        "subsec:streaming-patterns": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:streaming-patterns"
+        },
+        "subsec:hitl-design": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:hitl-design"
+        },
+        "subsec:ui-trust": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:ui-trust"
+        },
+        "subsec:ui-implementation": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:ui-implementation"
+        },
+        "subsec:ui-summary": {
+          "path": "chapters/27-agentic-ui/index.md",
+          "anchor": "subsec:ui-summary"
+        }
+      }
+    },
+    "chapters/27-agentic-ui/section-01.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:ui-motivation",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-02.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:ui-paradigms",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-03.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:ui-components",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-04.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:ui-frameworks",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-05.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:generative-ui",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-06.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:streaming-patterns",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-07.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:hitl-design",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-08.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:ui-trust",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-09.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:ui-implementation",
+      "hashes": {}
+    },
+    "chapters/27-agentic-ui/section-10.md": {
+      "path": "chapters/27-agentic-ui/index.md",
+      "anchor": "subsec:ui-summary",
+      "hashes": {}
+    },
+    "chapters/28-quiz/index.md": {
+      "path": "chapters/28-quiz/index.md",
+      "anchor": "quiz-questions-detailed-answers",
+      "hashes": {
+        "foundations-questions": {
+          "path": "chapters/28-quiz/index.md",
+          "anchor": "foundations-questions"
+        },
+        "core-algorithm-questions": {
+          "path": "chapters/28-quiz/index.md",
+          "anchor": "core-algorithm-questions"
+        },
+        "system-design-questions": {
+          "path": "chapters/28-quiz/index.md",
+          "anchor": "system-design-questions"
+        },
+        "practical-and-debugging-questions": {
+          "path": "chapters/28-quiz/index.md",
+          "anchor": "practical-and-debugging-questions"
+        },
+        "grpo-variants-and-advanced-rl-questions": {
+          "path": "chapters/28-quiz/index.md",
+          "anchor": "grpo-variants-and-advanced-rl-questions"
+        },
+        "dpo-extensions-questions": {
+          "path": "chapters/28-quiz/index.md",
+          "anchor": "dpo-extensions-questions"
+        },
+        "gpu-architecture-and-hardware-questions": {
+          "path": "chapters/28-quiz/reading-02.md",
+          "anchor": "gpu-architecture-and-hardware-questions"
+        },
+        "optimization-and-training-questions": {
+          "path": "chapters/28-quiz/reading-02.md",
+          "anchor": "optimization-and-training-questions"
+        },
+        "reward-model-and-sft-questions": {
+          "path": "chapters/28-quiz/reading-02.md",
+          "anchor": "reward-model-and-sft-questions"
+        },
+        "system-architecture-extension-questions": {
+          "path": "chapters/28-quiz/reading-02.md",
+          "anchor": "system-architecture-extension-questions"
+        },
+        "transformer-architecture-questions": {
+          "path": "chapters/28-quiz/reading-03.md",
+          "anchor": "transformer-architecture-questions"
+        },
+        "flash-attention-questions": {
+          "path": "chapters/28-quiz/reading-03.md",
+          "anchor": "flash-attention-questions"
+        },
+        "lora-and-peft-questions": {
+          "path": "chapters/28-quiz/reading-03.md",
+          "anchor": "lora-and-peft-questions"
+        },
+        "model-compression-questions": {
+          "path": "chapters/28-quiz/reading-03.md",
+          "anchor": "model-compression-questions"
+        },
+        "mixture-of-experts-questions": {
+          "path": "chapters/28-quiz/reading-03.md",
+          "anchor": "mixture-of-experts-questions"
+        },
+        "diversity-in-training-questions": {
+          "path": "chapters/28-quiz/reading-03.md",
+          "anchor": "diversity-in-training-questions"
+        },
+        "speculative-decoding-questions": {
+          "path": "chapters/28-quiz/reading-03.md",
+          "anchor": "speculative-decoding-questions"
+        },
+        "agentic-rl-questions": {
+          "path": "chapters/28-quiz/reading-04.md",
+          "anchor": "agentic-rl-questions"
+        },
+        "listwise-rewards-and-advanced-rm-questions": {
+          "path": "chapters/28-quiz/reading-04.md",
+          "anchor": "listwise-rewards-and-advanced-rm-questions"
+        },
+        "rl-for-large-reasoning-models-questions": {
+          "path": "chapters/28-quiz/reading-04.md",
+          "anchor": "rl-for-large-reasoning-models-questions"
+        },
+        "llm-evaluation-questions": {
+          "path": "chapters/28-quiz/reading-04.md",
+          "anchor": "llm-evaluation-questions"
+        },
+        "agentic-memory-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "agentic-memory-questions"
+        },
+        "agent-orchestration-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "agent-orchestration-questions"
+        },
+        "mcp-protocol-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "mcp-protocol-questions"
+        },
+        "agent-communication-a2a-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "agent-communication-a2a-questions"
+        },
+        "multi-agent-systems-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "multi-agent-systems-questions"
+        },
+        "agent-development-framework-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "agent-development-framework-questions"
+        },
+        "agentic-environments-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "agentic-environments-questions"
+        },
+        "agentic-ui-framework-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "agentic-ui-framework-questions"
+        },
+        "rag-and-agentic-rag-questions": {
+          "path": "chapters/28-quiz/reading-05.md",
+          "anchor": "rag-and-agentic-rag-questions"
+        }
+      }
+    },
+    "chapters/28-quiz/section-01.md": {
+      "path": "chapters/28-quiz/index.md",
+      "anchor": "foundations-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-02.md": {
+      "path": "chapters/28-quiz/index.md",
+      "anchor": "core-algorithm-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-03.md": {
+      "path": "chapters/28-quiz/index.md",
+      "anchor": "system-design-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-04.md": {
+      "path": "chapters/28-quiz/index.md",
+      "anchor": "practical-and-debugging-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-05.md": {
+      "path": "chapters/28-quiz/index.md",
+      "anchor": "grpo-variants-and-advanced-rl-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-06.md": {
+      "path": "chapters/28-quiz/index.md",
+      "anchor": "dpo-extensions-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-07.md": {
+      "path": "chapters/28-quiz/reading-02.md",
+      "anchor": "gpu-architecture-and-hardware-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-08.md": {
+      "path": "chapters/28-quiz/reading-02.md",
+      "anchor": "optimization-and-training-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-09.md": {
+      "path": "chapters/28-quiz/reading-02.md",
+      "anchor": "reward-model-and-sft-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-10.md": {
+      "path": "chapters/28-quiz/reading-02.md",
+      "anchor": "system-architecture-extension-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-11.md": {
+      "path": "chapters/28-quiz/reading-03.md",
+      "anchor": "transformer-architecture-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-12.md": {
+      "path": "chapters/28-quiz/reading-03.md",
+      "anchor": "flash-attention-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-13.md": {
+      "path": "chapters/28-quiz/reading-03.md",
+      "anchor": "lora-and-peft-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-14.md": {
+      "path": "chapters/28-quiz/reading-03.md",
+      "anchor": "model-compression-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-15.md": {
+      "path": "chapters/28-quiz/reading-03.md",
+      "anchor": "mixture-of-experts-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-16.md": {
+      "path": "chapters/28-quiz/reading-03.md",
+      "anchor": "diversity-in-training-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-17.md": {
+      "path": "chapters/28-quiz/reading-03.md",
+      "anchor": "speculative-decoding-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-18.md": {
+      "path": "chapters/28-quiz/reading-04.md",
+      "anchor": "agentic-rl-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-19.md": {
+      "path": "chapters/28-quiz/reading-04.md",
+      "anchor": "listwise-rewards-and-advanced-rm-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-20.md": {
+      "path": "chapters/28-quiz/reading-04.md",
+      "anchor": "rl-for-large-reasoning-models-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-21.md": {
+      "path": "chapters/28-quiz/reading-04.md",
+      "anchor": "llm-evaluation-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-22.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "agentic-memory-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-23.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "agent-orchestration-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-24.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "mcp-protocol-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-25.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "agent-communication-a2a-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-26.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "multi-agent-systems-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-27.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "agent-development-framework-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-28.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "agentic-environments-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-29.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "agentic-ui-framework-questions",
+      "hashes": {}
+    },
+    "chapters/28-quiz/section-30.md": {
+      "path": "chapters/28-quiz/reading-05.md",
+      "anchor": "rag-and-agentic-rag-questions",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/index.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "quick-reference",
+      "hashes": {
+        "core-rl-alignment-equations": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "core-rl-alignment-equations"
+        },
+        "transformer-architecture-formulas": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "transformer-architecture-formulas"
+        },
+        "decoding-methods": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "decoding-methods"
+        },
+        "systems-parallelism": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "systems-parallelism"
+        },
+        "gpu-hardware-specs": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "gpu-hardware-specs"
+        },
+        "hyperparameter-ranges": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "hyperparameter-ranges"
+        },
+        "trl-api-quick-reference": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "trl-api-quick-reference"
+        },
+        "rag-pipeline-formulas": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "rag-pipeline-formulas"
+        },
+        "agentic-design-patterns": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "agentic-design-patterns"
+        },
+        "agent-communication-protocols": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "agent-communication-protocols"
+        },
+        "context-window-budget": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "context-window-budget"
+        },
+        "common-failure-modes-fixes": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "common-failure-modes-fixes"
+        },
+        "method-selection-decision-tree": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "method-selection-decision-tree"
+        },
+        "evaluation-metrics": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "evaluation-metrics"
+        },
+        "reasoning-test-time-scaling": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "reasoning-test-time-scaling"
+        },
+        "memory-system-types": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "memory-system-types"
+        },
+        "mcp-quick-reference": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "mcp-quick-reference"
+        },
+        "a2a-protocol-quick-reference": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "a2a-protocol-quick-reference"
+        },
+        "agent-framework-comparison": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "agent-framework-comparison"
+        },
+        "agentic-rl-formulas": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "agentic-rl-formulas"
+        },
+        "agent-security-checklist": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "agent-security-checklist"
+        },
+        "agent-evaluation-metrics": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "agent-evaluation-metrics"
+        },
+        "key-agentic-benchmarks": {
+          "path": "chapters/29-quick-reference/index.md",
+          "anchor": "key-agentic-benchmarks"
+        }
+      }
+    },
+    "chapters/29-quick-reference/section-01.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "core-rl-alignment-equations",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-02.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "transformer-architecture-formulas",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-03.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "decoding-methods",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-04.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "systems-parallelism",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-05.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "gpu-hardware-specs",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-06.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "hyperparameter-ranges",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-07.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "trl-api-quick-reference",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-08.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "rag-pipeline-formulas",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-09.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "agentic-design-patterns",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-10.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "agent-communication-protocols",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-11.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "context-window-budget",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-12.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "common-failure-modes-fixes",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-13.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "method-selection-decision-tree",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-14.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "evaluation-metrics",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-15.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "reasoning-test-time-scaling",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-16.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "memory-system-types",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-17.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "mcp-quick-reference",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-18.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "a2a-protocol-quick-reference",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-19.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "agent-framework-comparison",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-20.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "agentic-rl-formulas",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-21.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "agent-security-checklist",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-22.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "agent-evaluation-metrics",
+      "hashes": {}
+    },
+    "chapters/29-quick-reference/section-23.md": {
+      "path": "chapters/29-quick-reference/index.md",
+      "anchor": "key-agentic-benchmarks",
+      "hashes": {}
+    },
+    "chapters/30-conclusion/index.md": {
+      "path": "chapters/30-conclusion/index.md",
+      "anchor": "ch:conclusion",
+      "hashes": {
+        "summary-dup2": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "summary-dup2"
+        },
+        "the-road-ahead-open-challenges": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "the-road-ahead-open-challenges"
+        },
+        "further-reading": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "further-reading"
+        }
+      }
+    },
+    "chapters/30-conclusion/section-01.md": {
+      "path": "chapters/30-conclusion/index.md",
+      "anchor": "summary-dup2",
+      "hashes": {}
+    },
+    "chapters/30-conclusion/section-02.md": {
+      "path": "chapters/30-conclusion/index.md",
+      "anchor": "the-road-ahead-open-challenges",
+      "hashes": {}
+    },
+    "chapters/30-conclusion/section-03.md": {
+      "path": "chapters/30-conclusion/index.md",
+      "anchor": "further-reading",
+      "hashes": {
+        "cite-ouyang2022training-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-ouyang2022training-1--section-03"
+        },
+        "cite-schulman2017proximal-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-schulman2017proximal-1--section-03"
+        },
+        "cite-deepseek2025r1-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-deepseek2025r1-1--section-03"
+        },
+        "cite-jimenez2024swebench-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-jimenez2024swebench-1--section-03"
+        },
+        "cite-mialon2023gaia-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-mialon2023gaia-1--section-03"
+        },
+        "cite-anthropic-mcp-2024-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-anthropic-mcp-2024-1--section-03"
+        },
+        "cite-google-a2a-2025-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-google-a2a-2025-1--section-03"
+        },
+        "cite-bai2022constitutional-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-bai2022constitutional-1--section-03"
+        },
+        "cite-hubinger2024sleeper-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-hubinger2024sleeper-1--section-03"
+        },
+        "cite-greshake2023indirect-1": {
+          "path": "chapters/30-conclusion/index.md",
+          "anchor": "cite-greshake2023indirect-1--section-03"
+        }
+      }
+    }
+  }
+}
