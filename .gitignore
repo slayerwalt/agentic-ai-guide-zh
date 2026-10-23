@@ -171,3 +171,10 @@ credentials.json
 venv/
 __pycache__/
 *.pyc
+
+# Local website builds and review artifacts
+/site/
+/.cache/
+/.site-work/
+/docs/assets/vendor/
+/docs/assets/figures/

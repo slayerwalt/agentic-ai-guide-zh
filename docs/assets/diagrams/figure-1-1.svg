@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="230" viewBox="0 0 1520 230" role="img" aria-labelledby="title desc">
+  <title id="title">The LLM pipeline</title>
+  <desc id="desc">Raw Text → Tokenizer → Token IDs → Embedding Layer → Transformer Layers (× L) → Vocab Logits → Decode → Output Text. A dashed autoregressive loop appends the output token to the input.</desc>
+  <!-- Vector adaptation of the original TikZ in contents/part1.tex, fig:llm-pipeline. Labels and connections retained. -->
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#263343"/></marker></defs>
+  <rect width="1520" height="230" fill="white"/>
+  <g stroke="#263343" stroke-width="2">
+    <rect x="20" y="40" width="150" height="80" rx="7" fill="#ededed"/>
+    <rect x="210" y="40" width="150" height="80" rx="7" fill="#e0e8ff"/>
+    <rect x="400" y="40" width="150" height="80" rx="7" fill="#e0f5df"/>
+    <rect x="590" y="40" width="150" height="80" rx="7" fill="#ffedd8"/>
+    <rect x="780" y="40" width="150" height="80" rx="7" fill="#ffe3e3"/>
+    <rect x="970" y="40" width="150" height="80" rx="7" fill="#eee2f5"/>
+    <rect x="1160" y="40" width="150" height="80" rx="7" fill="#e1f6f7"/>
+    <rect x="1350" y="40" width="150" height="80" rx="7" fill="#ededed"/>
+    <g fill="none" marker-end="url(#arrow)">
+      <path d="M170 80H210"/><path d="M360 80H400"/><path d="M550 80H590"/>
+      <path d="M740 80H780"/><path d="M930 80H970"/><path d="M1120 80H1160"/><path d="M1310 80H1350"/>
+      <path d="M1425 120V170Q1425 185 1410 185H110Q95 185 95 170V120" stroke-dasharray="9 6"/>
+    </g>
+  </g>
+  <g fill="#18212d" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">
+    <text x="95" y="74"><tspan x="95">Raw</tspan><tspan x="95" dy="26">Text</tspan></text>
+    <text x="285" y="87">Tokenizer</text>
+    <text x="475" y="74"><tspan x="475">Token</tspan><tspan x="475" dy="26">IDs</tspan></text>
+    <text x="665" y="74"><tspan x="665">Embedding</tspan><tspan x="665" dy="26">Layer</tspan></text>
+    <text x="855" y="74"><tspan x="855">Transformer</tspan><tspan x="855" dy="26">Layers (× L)</tspan></text>
+    <text x="1045" y="74"><tspan x="1045">Vocab</tspan><tspan x="1045" dy="26">Logits</tspan></text>
+    <text x="1235" y="87">Decode</text>
+    <text x="1425" y="74"><tspan x="1425">Output</tspan><tspan x="1425" dy="26">Text</tspan></text>
+    <text x="760" y="217" font-size="18" font-style="italic">autoregressive loop (append token to input)</text>
+  </g>
+</svg>

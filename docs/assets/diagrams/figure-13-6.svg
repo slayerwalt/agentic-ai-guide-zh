@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="225" viewBox="0 0 1140 225" role="img" aria-labelledby="title desc">
+  <title id="title">从异策略蒸馏到同策略自蒸馏与强化学习</title>
+  <desc id="desc">异策略蒸馏（SFT）通过密集、同策略信号连接同策略自蒸馏，再通过稀疏、探索连接 RL（GRPO/PPO）。三者分别为异策略密集、同策略密集和同策略稀疏。</desc>
+  <!-- Vector adaptation of the original Chinese TikZ in contents/part3.tex. All labels and edges retained. -->
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#263343"/></marker></defs>
+  <rect width="1140" height="225" fill="white"/>
+  <g fill="white" stroke="#263343" stroke-width="2"><rect x="25" y="75" width="225" height="85" rx="7"/><rect x="457" y="75" width="225" height="85" rx="7"/><rect x="890" y="75" width="225" height="85" rx="7"/></g>
+  <g fill="none" stroke="#263343" stroke-width="2.5" marker-end="url(#arrow)"><path d="M250 117H457"/><path d="M682 117H890"/></g>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#18212d" text-anchor="middle">
+    <g font-size="22"><text x="137" y="110"><tspan x="137">异策略</tspan><tspan x="137" dy="31">蒸馏（SFT）</tspan></text><text x="569" y="110"><tspan x="569">同策略</tspan><tspan x="569" dy="31">自蒸馏</tspan></text><text x="1002" y="110"><tspan x="1002">RL</tspan><tspan x="1002" dy="31">(GRPO/PPO)</tspan></text></g>
+    <g font-size="18"><text x="353" y="97">密集，同策略</text><text x="786" y="97">稀疏，探索</text></g>
+    <g font-size="18" fill="#59616a"><text x="137" y="201">异策略，密集</text><text x="569" y="201">同策略，密集</text><text x="1002" y="201">同策略，稀疏</text></g>
+  </g>
+</svg>

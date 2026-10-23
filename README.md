@@ -51,6 +51,35 @@ make distclean && make
 
 ---
 
+## 网页阅读版
+
+在线阅读：[智能体 AI 漫游指南](https://slayerwalt.github.io/agentic-ai-guide-zh/)。
+
+本 fork 由 slayerwalt 负责已有中文译本的整合发布，中文翻译由 Chasing1020（Jiancong Zhu）完成。网页工作在 site/github-pages 分支进行，已收录卷首、6 个部分的全部 30 章，以及 443 篇参考文献。保留译文、公式、图表、187 段代码和 108 道自测题，提供按节阅读与折叠解答。
+
+内容呈现与目录组织见 [网页框架方案](WEBSITE_PLAN.md)。本地使用 Python 3.12：
+
+~~~bash
+python -m pip install -r requirements-site.txt
+python scripts/vendor_mathjax.py
+python scripts/build_site.py
+python -m http.server 8000 --bind 127.0.0.1 --directory site
+~~~
+
+在浏览器打开 http://127.0.0.1:8000/。网站构建流程与原有 LaTeX 构建分别维护；在线网站由 GitHub Actions 从 main 分支构建并发布到 GitHub Pages。
+
+正文 Markdown 已纳入仓库，常规构建不需要转换工具。若 LaTeX 源文件更新，安装 [Pandoc 3.6.1](https://github.com/jgm/pandoc/releases/tag/3.6.1) 和可选转换依赖后重新生成正文、参考文献与导航：
+
+~~~bash
+python -m pip install -r requirements-convert.txt
+python scripts/convert_book.py
+python scripts/build_site.py
+~~~
+
+Pandoc 不在 PATH 时可传入 `--pandoc /path/to/pandoc`。转换以 `contents/` 和 `book.bib` 为依据，卷首署名与网站说明单独维护；三幅 SVG 图按原 TikZ 图保留文字与连接关系。构建会核对每章的代码、公式、引用、图表、锚点和中文正文顺序。源文缺项及核对来源见[整理记录](WEBSITE_PLAN.md)。
+
+---
+
 ## 🌐 翻译策略
 
 - **保留英文**：通用学术术语（Transformer、Token、Attention、Agent、Policy、Reward、Embedding、Prompt 等）、人名（如 Haggai Roitman、Geoffrey Hinton）、机构名（OpenAI、Anthropic、DeepMind、IBM、Google）、模型名（GPT-4、Llama-3、DeepSeek-R1、Qwen、Claude、Mistral）、数据集名（ImageNet、MMLU、HumanEval、MATH、GAIA）、协议名（MCP、A2A）。

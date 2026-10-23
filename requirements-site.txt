@@ -1,0 +1,12 @@
+# Same tested Python 3.12 website toolchain as principles-of-diffusion-models.
+zensical==0.0.71
+click==8.5.0
+deepmerge==3.0.1
+jinja2==3.1.6
+markdown==3.11.1
+markupsafe==3.0.4
+pathspec==1.1.1
+pygments==2.21.0
+pymdown-extensions==12.3
+pyyaml==6.0.3
+tomli==2.5.0

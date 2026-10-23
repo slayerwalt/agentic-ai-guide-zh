@@ -1,0 +1,19 @@
+# 免责声明 {#disclaimer}
+
+<aside class="page-attribution" aria-label="本页署名">
+作者：Chasing1020（Jiancong Zhu）
+</aside>
+
+本文档是作者独立撰写的综述与教育资源。文中表达的观点、意见与结论仅代表作者本人，并不必然反映作者目前或曾经服务的任何雇主、组织或机构的立场。
+
+本作品不包含任何专有、机密或商业秘密信息。所有引用材料均取自公开来源，包括同行评审出版物、开放获取的预印本、官方文档以及开源代码仓库。
+
+本内容按“原样”提供，不附带任何明示或暗示的保证。作者不就信息对任何特定用途的准确性、完整性或适用性作出任何陈述。读者在将任何论断、公式或实现细节应用于生产系统之前，应当独立核实。
+
+<strong>欢迎反馈。</strong>如果您发现任何错误、不准确之处或有改进建议，欢迎将反馈发送至 `[first_name]r@gmail.com`。
+
+<strong>AI 使用披露。</strong>本书使用大语言模型作为研究与起草辅助工具。所有内容均由作者尽最大努力进行了编辑与核实。
+
+<strong>许可证。</strong>本作品采用 <strong>Creative Commons Attribution-ShareAlike 4.0 International License</strong>（CC BY-SA 4.0）授权。您可以自由分享（复制与再分发）及改编（混编、转换、在其基础上创作）本材料，可用于任何目的（包括商业用途），前提是给予适当的署名、提供许可证的链接、指明是否做了修改，并以相同许可证分发任何衍生作品。完整许可证文本：[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+
+<strong>翻译声明。</strong>本中文版由 <strong>Jiancong Zhu</strong>（[@Chasing1020](https://github.com/Chasing1020)）借助大语言模型辅助翻译完成，并经人工审校。翻译过程中保留原文的论述结构、技术内容与引用关系。本中文译本作为原作的衍生作品，同样依据 <strong>Creative Commons Attribution-ShareAlike 4.0 International License</strong>（CC BY-SA 4.0）发布；任何对本译本的再分发或改编必须保留对原作者 Haggai Roitman 与原作的署名，并以相同许可证授权。译本仓库与勘误：[github.com/Chasing1020/agentic-ai-guide-zh](https://github.com/Chasing1020/agentic-ai-guide-zh)；如发现翻译错误或表达不当，欢迎通过 [GitHub Issue](https://github.com/Chasing1020/agentic-ai-guide-zh/issues) 或 `chasing1020@gmail.com` 反馈以便修订。

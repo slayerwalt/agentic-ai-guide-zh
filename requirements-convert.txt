@@ -1,0 +1,4 @@
+# Optional source conversion tools; the website build does not install these.
+pybtex==0.26.1
+latexcodec==3.0.1
+PyYAML==6.0.3

@@ -1,0 +1,2 @@
+# Preserve the upstream bibliography style without local whitespace warnings.
+scripts/bibliography/plainnat.bst -whitespace

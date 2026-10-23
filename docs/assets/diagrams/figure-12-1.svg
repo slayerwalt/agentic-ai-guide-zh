@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Traditional Chatbot and Autonomous Agent</title>
+  <desc id="desc">A chatbot exchanges a prompt and response with a user. An autonomous agent receives a user task, acts through tools, receives observations, and obtains reward from the environment.</desc>
+  <!-- Vector adaptation of the original TikZ in contents/part2.tex. Original node and edge text retained. -->
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#263343"/></marker></defs>
+  <rect width="1200" height="430" fill="white"/>
+  <g fill="none" stroke="#8b9198" stroke-width="1.5" stroke-dasharray="7 5"><rect x="15" y="15" width="430" height="270" rx="9"/><rect x="465" y="15" width="720" height="400" rx="9"/></g>
+  <g stroke="#263343" stroke-width="2">
+    <rect x="45" y="105" width="130" height="65" rx="7" fill="#e0e8ff"/><rect x="285" y="105" width="130" height="65" rx="7" fill="#ffead3"/>
+    <rect x="495" y="105" width="130" height="65" rx="7" fill="#e0e8ff"/><rect x="740" y="105" width="150" height="65" rx="7" fill="#ffead3"/>
+    <rect x="1015" y="105" width="135" height="65" rx="7" fill="#e0f5df"/><rect x="865" y="280" width="170" height="65" rx="7" fill="#ffebeb"/>
+    <g fill="none" marker-end="url(#arrow)">
+      <path d="M175 124H285"/><path d="M285 151H175"/>
+      <path d="M625 137H740"/><path d="M890 122H1015"/><path d="M1015 153H890"/>
+      <path d="M1082 170V235H950V280"/>
+      <path d="M865 312H815V170" stroke-dasharray="8 5"/>
+    </g>
+  </g>
+  <g fill="#18212d" font-family="Arial, sans-serif" text-anchor="middle">
+    <g font-size="23" font-weight="bold"><text x="230" y="55">(a) Traditional Chatbot</text><text x="825" y="55">(b) Autonomous Agent</text></g>
+    <g font-size="21"><text x="110" y="145">User</text><text x="350" y="145">LLM</text><text x="560" y="145">User</text><text x="815" y="145">LLM Agent</text><text x="1082" y="145">Tools</text><text x="950" y="320">Environment</text></g>
+    <g font-size="17"><text x="230" y="115">prompt</text><text x="230" y="178">response</text><text x="682" y="127">task</text><text x="952" y="112">act</text><text x="952" y="181">obs</text><text x="1070" y="261">execute</text><text x="772" y="285">reward</text></g>
+    <g font-size="18" fill="#59616a"><text x="230" y="245">Single turn, immediate feedback</text><text x="825" y="389">Multi-step, sparse terminal reward</text></g>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+/* Isolated control: no changes to the book's text or equation layout. */
+.book-reading-back {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--book-rule);
+  border-radius: 1.5rem;
+  background: var(--md-default-bg-color);
+  color: var(--book-link);
+  box-shadow: var(--md-shadow-z2);
+  font-family: var(--md-text-font);
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.3;
+  cursor: pointer;
+}
+
+.book-reading-back[hidden],
+#__drawer:checked ~ .book-reading-back,
+#__search:checked ~ .book-reading-back,
+body:has(#__toc:checked) .book-reading-back {
+  display: none;
+}
+
+.book-reading-back:hover {
+  background: var(--md-default-bg-color--light);
+}
+
+.book-reading-back:focus-visible {
+  outline: 2px solid var(--book-link);
+  outline-offset: 3px;
+}
+
+.book-reading-back svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (max-width: 76.234375em) {
+  .book-reading-back {
+    bottom: calc(4.5rem + env(safe-area-inset-bottom));
+  }
+}
+
+@media print {
+  .book-reading-back {
+    display: none;
+  }
+}
